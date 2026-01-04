@@ -1,5 +1,10 @@
 # AI-Grrado-Chatbot Project
 
+[![CI](https://github.com/linto11/AI-Grrado-Chatbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/linto11/AI-Grrado-Chatbot/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
+[![Tech Stack](https://img.shields.io/badge/stack-Python%20%7C%20Faker%20%7C%20GitHub%20Actions%20%7C%20Foundry-lightgrey)](#tech-stack)
+
 Structured data generator for AI/ML experimentation and chatbot scenarios.
 
 ## Project structure
@@ -7,6 +12,12 @@ Structured data generator for AI/ML experimentation and chatbot scenarios.
 - _requirements.txt: Pinned Python dependencies (includes Faker).
 - .github/: CI workflow and templates for issues/PRs.
 - CONTRIBUTING.md, CODE_OF_CONDUCT.md, CHANGELOG.md: Collaboration and release notes.
+
+## Tech stack
+- Python 3.13+
+- Faker for synthetic data
+- GitHub Actions for CI
+- Microsoft Foundry-compatible workspace assets (.foundry/ ignored; add as needed)
 
 ## Prerequisites
 - Python 3.13+ (tested with 3.13)
