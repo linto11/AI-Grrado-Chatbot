@@ -1,45 +1,54 @@
-# AI-Grrado-Chatbot-Project Setup
+# AI-Grrado-Chatbot Project
 
-Follow these steps to run the project in a clean environment.
+Structured data generator for AI/ML experimentation and chatbot scenarios.
+
+## Project structure
+- DataGenerator/generator.py: Generates synthetic CSVs (garages, services, users, vehicles, service history, issues, image diagnostics).
+- _requirements.txt: Pinned Python dependencies (includes Faker).
+- .github/: CI workflow and templates for issues/PRs.
+- CONTRIBUTING.md, CODE_OF_CONDUCT.md, CHANGELOG.md: Collaboration and release notes.
 
 ## Prerequisites
-- Python 3.13 (or compatible with the code you write)
-- PowerShell (Windows)
+- Python 3.13+ (tested with 3.13)
+- PowerShell on Windows (or any shell if you adapt paths)
 
-## Setup
-1) Clone or unzip the project.
-2) Open PowerShell at the project root.
-3) Create and activate the virtual environment (if not already present):
+## Quickstart
+1) Clone and open PowerShell at the repo root.
+2) Create and activate a virtual environment:
    ```pwsh
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
    ```
-4) Install dependencies from the shared list:
+3) Install dependencies:
    ```pwsh
    pip install -r _requirements.txt
    ```
-
-## Running the generator
-1) Ensure the virtual environment is active (prompt shows `(.venv)`).
-2) Run the data generator script:
+4) Generate data:
    ```pwsh
    python DataGenerator/generator.py
    ```
+   CSVs are written to ./data/.
 
 ## Updating dependencies
-- When you add libraries, pin them in `_requirements.txt` (e.g., `numpy==1.26.4`).
-- To capture the current environment for reuse:
+- Add new libs to `_requirements.txt` (pin versions).
+- Capture the current env for reuse:
   ```pwsh
   pip freeze > _requirements.txt
   ```
 
 ## Troubleshooting
-- If activation fails, allow the script execution policy for the current session:
+- Activation blocked? Allow for the session:
   ```pwsh
   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
   ```
-- If `pip install` fails, upgrade pip and retry:
+- Install errors? Upgrade pip then retry:
   ```pwsh
   python -m pip install --upgrade pip
   pip install -r _requirements.txt
   ```
+
+## Contributing
+See CONTRIBUTING.md and CODE_OF_CONDUCT.md. Open issues/PRs using the templates in .github/.
+
+## License
+Apache-2.0. See LICENSE.
