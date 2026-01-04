@@ -1,4 +1,4 @@
-# AI-ML-Project Setup
+# AI-Grrado-Chatbot-Project Setup
 
 Follow these steps to run the project in a clean environment.
 
