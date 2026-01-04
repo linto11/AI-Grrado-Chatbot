@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "AI-ML-Project",
+			"path": "."
+		},
+		{
+			"name": "DataGenerator",
+			"path": "DataGenerator"
+		}
+	],
+	"settings": {}
+}
