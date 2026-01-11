@@ -1,0 +1,3002 @@
+-- Seed ServiceHistories table
+TRUNCATE TABLE "ServiceHistories" RESTART IDENTITY CASCADE;
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0527, 017, 0105, '2025-03-12 10:00:00+00', 26835.0, 4644.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0563, 054, 0327, '2025-02-28 10:00:00+00', 153304.0, 1359.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0291, 097, 0588, '2025-05-22 10:00:00+00', 38616.0, 1603.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0319, 058, 0347, '2026-01-01 10:00:00+00', 68830.0, 3834.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0134, 005, 0030, '2025-04-21 10:00:00+00', 86717.0, 613.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0393, 009, 0056, '2025-07-11 10:00:00+00', 176085.0, 3693.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0184, 076, 0457, '2025-08-05 10:00:00+00', 171095.0, 2759.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0203, 091, 0547, '2025-01-28 10:00:00+00', 30176.0, 4014.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0135, 016, 0096, '2025-02-20 10:00:00+00', 14761.0, 996.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0318, 079, 0477, '2025-10-03 10:00:00+00', 196601.0, 2098.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0148, 045, 0265, '2025-09-05 10:00:00+00', 42604.0, 3411.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0339, 056, 0333, '2024-07-20 10:00:00+00', 68355.0, 4193.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0067, 081, 0487, '2025-10-17 10:00:00+00', 188628.0, 3079.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0473, 029, 0175, '2025-05-29 10:00:00+00', 31447.0, 3055.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0589, 021, 0131, '2024-05-06 10:00:00+00', 71663.0, 1043.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0110, 056, 0334, '2024-05-14 10:00:00+00', 28415.0, 781.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0546, 079, 0473, '2024-10-25 10:00:00+00', 149029.0, 3586.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0636, 042, 0250, '2024-12-22 10:00:00+00', 102883.0, 1502.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0394, 011, 0068, '2025-10-02 10:00:00+00', 44106.0, 1905.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0606, 073, 0442, '2024-01-11 10:00:00+00', 51477.0, 4846.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0558, 041, 0242, '2024-07-21 10:00:00+00', 19599.0, 838.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0588, 082, 0499, '2024-04-05 10:00:00+00', 66189.0, 3992.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0569, 016, 0100, '2025-09-29 10:00:00+00', 61162.0, 1643.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0416, 012, 0072, '2024-01-08 10:00:00+00', 105071.0, 1090.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0611, 065, 0389, '2024-04-03 10:00:00+00', 129308.0, 4249.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0063, 015, 0093, '2024-03-15 10:00:00+00', 193635.0, 1338.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0001, 025, 0151, '2025-01-06 10:00:00+00', 11828.0, 3910.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0299, 066, 0400, '2025-12-31 10:00:00+00', 134816.0, 3863.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0211, 054, 0325, '2025-09-30 10:00:00+00', 53731.0, 4871.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0312, 074, 0446, '2024-02-06 10:00:00+00', 165125.0, 931.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0009, 087, 0523, '2025-07-11 10:00:00+00', 36620.0, 1244.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0064, 063, 0379, '2024-11-20 10:00:00+00', 76532.0, 635.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0574, 061, 0368, '2025-11-03 10:00:00+00', 109779.0, 2511.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0241, 073, 0443, '2024-05-10 10:00:00+00', 31403.0, 3429.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0326, 065, 0392, '2025-09-10 10:00:00+00', 188737.0, 3325.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0559, 036, 0217, '2024-04-28 10:00:00+00', 30336.0, 4090.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 094, 0569, '2025-07-01 10:00:00+00', 53481.0, 3151.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0158, 050, 0296, '2025-02-28 10:00:00+00', 39175.0, 1300.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0074, 003, 0017, '2025-05-31 10:00:00+00', 137202.0, 4187.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0448, 023, 0140, '2024-09-25 10:00:00+00', 183099.0, 1324.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0426, 077, 0467, '2025-12-19 10:00:00+00', 87237.0, 3687.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0185, 077, 0466, '2024-01-16 10:00:00+00', 33742.0, 3674.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0461, 065, 0394, '2025-02-10 10:00:00+00', 78379.0, 2049.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0435, 002, 0008, '2024-10-11 10:00:00+00', 114783.0, 4280.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0243, 085, 0514, '2025-10-05 10:00:00+00', 24294.0, 3565.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0591, 063, 0376, '2024-12-02 10:00:00+00', 117629.0, 510.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0495, 063, 0378, '2024-07-16 10:00:00+00', 88531.0, 4953.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0082, 024, 0146, '2024-10-24 10:00:00+00', 191698.0, 2489.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0530, 013, 0081, '2024-07-28 10:00:00+00', 41233.0, 924.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0484, 013, 0080, '2024-07-09 10:00:00+00', 16228.0, 4948.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0628, 009, 0055, '2025-06-29 10:00:00+00', 28410.0, 4582.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0481, 077, 0465, '2024-12-01 10:00:00+00', 94104.0, 4043.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0340, 071, 0432, '2025-02-15 10:00:00+00', 172860.0, 2613.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0172, 006, 0037, '2024-06-02 10:00:00+00', 76801.0, 2690.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0578, 045, 0267, '2025-07-13 10:00:00+00', 190853.0, 4076.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0174, 097, 0587, '2024-06-29 10:00:00+00', 147959.0, 2590.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0640, 005, 0028, '2024-07-14 10:00:00+00', 88949.0, 4171.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0130, 086, 0518, '2024-03-06 10:00:00+00', 45602.0, 2476.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0136, 048, 0288, '2025-06-26 10:00:00+00', 172750.0, 2304.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0115, 030, 0179, '2024-03-09 10:00:00+00', 119021.0, 1438.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0458, 063, 0379, '2025-05-11 10:00:00+00', 156727.0, 2340.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0242, 082, 0497, '2024-12-04 10:00:00+00', 179959.0, 4520.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0352, 014, 0087, '2024-10-24 10:00:00+00', 90319.0, 1462.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0423, 065, 0393, '2024-03-14 10:00:00+00', 11705.0, 3805.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0172, 036, 0216, '2025-05-27 10:00:00+00', 76475.0, 3026.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0271, 019, 0119, '2024-10-15 10:00:00+00', 149326.0, 1572.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0409, 081, 0488, '2024-10-04 10:00:00+00', 77519.0, 4101.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0546, 040, 0240, '2025-02-15 10:00:00+00', 148685.0, 3395.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0269, 024, 0149, '2025-10-16 10:00:00+00', 26426.0, 3761.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0296, 076, 0460, '2025-12-09 10:00:00+00', 14310.0, 2786.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0043, 016, 0100, '2025-07-11 10:00:00+00', 195031.0, 3098.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0626, 047, 0280, '2024-06-14 10:00:00+00', 119181.0, 2414.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0101, 044, 0262, '2024-05-14 10:00:00+00', 74588.0, 3404.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0248, 100, 0603, '2024-06-29 10:00:00+00', 85206.0, 4459.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0185, 053, 0321, '2024-12-17 10:00:00+00', 34368.0, 286.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0009, 012, 0070, '2024-09-27 10:00:00+00', 30193.0, 3568.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0538, 017, 0107, '2024-01-14 10:00:00+00', 193111.0, 3079.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0291, 043, 0258, '2024-12-14 10:00:00+00', 37768.0, 478.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0635, 016, 0095, '2024-11-30 10:00:00+00', 92889.0, 1976.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0125, 020, 0123, '2024-02-07 10:00:00+00', 143740.0, 1264.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0580, 031, 0190, '2025-07-07 10:00:00+00', 195413.0, 1709.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0302, 079, 0479, '2024-11-25 10:00:00+00', 6284.0, 3914.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0438, 055, 0332, '2024-08-26 10:00:00+00', 56004.0, 1526.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0284, 011, 0064, '2025-08-05 10:00:00+00', 180930.0, 3383.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0062, 045, 0265, '2024-08-10 10:00:00+00', 39281.0, 1657.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0072, 083, 0504, '2024-02-26 10:00:00+00', 156502.0, 3416.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0504, 018, 0112, '2024-06-07 10:00:00+00', 11306.0, 4628.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0224, 018, 0109, '2025-05-26 10:00:00+00', 170825.0, 2321.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0036, 012, 0075, '2025-05-25 10:00:00+00', 188332.0, 4880.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0257, 076, 0457, '2024-05-25 10:00:00+00', 77010.0, 4277.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0001, 007, 0039, '2025-04-25 10:00:00+00', 15781.0, 2382.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0338, 066, 0401, '2025-12-08 10:00:00+00', 156779.0, 230.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0503, 081, 0490, '2024-11-29 10:00:00+00', 25798.0, 3508.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0072, 092, 0554, '2024-08-19 10:00:00+00', 156915.0, 227.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0494, 020, 0125, '2025-05-29 10:00:00+00', 53793.0, 4585.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0342, 052, 0311, '2025-12-15 10:00:00+00', 190489.0, 652.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0093, 062, 0375, '2025-05-15 10:00:00+00', 129439.0, 2985.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0471, 050, 0297, '2025-03-12 10:00:00+00', 52081.0, 1646.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0041, 065, 0394, '2025-09-11 10:00:00+00', 74367.0, 2648.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0400, 018, 0110, '2025-07-15 10:00:00+00', 167263.0, 4185.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0648, 074, 0449, '2024-05-13 10:00:00+00', 83225.0, 1346.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0198, 004, 0026, '2025-10-26 10:00:00+00', 27725.0, 2153.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0399, 011, 0065, '2025-09-04 10:00:00+00', 177227.0, 2720.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0547, 077, 0461, '2024-08-23 10:00:00+00', 90944.0, 503.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0058, 058, 0346, '2025-11-18 10:00:00+00', 6867.0, 3521.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0217, 089, 0536, '2025-09-16 10:00:00+00', 87506.0, 4595.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0594, 040, 0239, '2024-12-30 10:00:00+00', 125953.0, 502.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0145, 083, 0501, '2025-11-27 10:00:00+00', 108322.0, 4060.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0047, 042, 0249, '2025-01-01 10:00:00+00', 141008.0, 317.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0648, 009, 0052, '2025-12-29 10:00:00+00', 85156.0, 997.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0626, 029, 0175, '2024-05-25 10:00:00+00', 123376.0, 723.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0117, 084, 0510, '2024-05-16 10:00:00+00', 176241.0, 2006.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0208, 072, 0437, '2024-01-27 10:00:00+00', 150908.0, 3493.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0124, 098, 0590, '2024-05-04 10:00:00+00', 84397.0, 1325.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0219, 008, 0047, '2025-03-05 10:00:00+00', 86915.0, 1620.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0065, 020, 0124, '2025-08-22 10:00:00+00', 46543.0, 1357.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0173, 063, 0379, '2024-12-17 10:00:00+00', 197714.0, 1551.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0250, 099, 0596, '2025-05-26 10:00:00+00', 64210.0, 1292.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0648, 064, 0386, '2025-08-13 10:00:00+00', 82705.0, 328.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0083, 001, 0007, '2025-12-14 10:00:00+00', 177057.0, 1669.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0608, 049, 0291, '2025-05-02 10:00:00+00', 46309.0, 4099.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0130, 035, 0212, '2025-12-08 10:00:00+00', 46687.0, 2419.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0462, 070, 0422, '2025-06-09 10:00:00+00', 187068.0, 1629.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0039, 030, 0185, '2024-10-30 10:00:00+00', 134201.0, 921.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0309, 059, 0357, '2025-02-26 10:00:00+00', 61024.0, 237.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0242, 033, 0197, '2025-11-06 10:00:00+00', 178922.0, 4543.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0634, 062, 0371, '2025-02-21 10:00:00+00', 191627.0, 4357.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0476, 036, 0214, '2025-07-04 10:00:00+00', 54251.0, 634.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0116, 025, 0153, '2024-04-10 10:00:00+00', 196747.0, 4275.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0164, 008, 0045, '2025-01-19 10:00:00+00', 106290.0, 3183.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0215, 074, 0446, '2024-09-07 10:00:00+00', 192726.0, 2938.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0465, 008, 0045, '2025-02-12 10:00:00+00', 167578.0, 629.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0181, 026, 0162, '2024-03-20 10:00:00+00', 88649.0, 4173.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0119, 012, 0073, '2025-08-01 10:00:00+00', 162585.0, 3843.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0594, 056, 0334, '2024-07-21 10:00:00+00', 131638.0, 1828.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0334, 039, 0236, '2024-08-14 10:00:00+00', 192844.0, 2871.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0101, 041, 0243, '2024-03-05 10:00:00+00', 71776.0, 1838.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0226, 012, 0076, '2024-04-17 10:00:00+00', 29917.0, 4993.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0056, 074, 0447, '2024-03-02 10:00:00+00', 172461.0, 1970.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 030, 0183, '2024-04-19 10:00:00+00', 99790.0, 3259.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0469, 033, 0199, '2024-02-20 10:00:00+00', 164732.0, 2409.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0344, 021, 0131, '2025-01-22 10:00:00+00', 138886.0, 4858.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0288, 023, 0140, '2024-12-26 10:00:00+00', 41557.0, 4013.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0429, 029, 0176, '2025-07-08 10:00:00+00', 169583.0, 2001.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0619, 026, 0161, '2024-08-04 10:00:00+00', 43054.0, 4935.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0236, 015, 0089, '2024-04-10 10:00:00+00', 13963.0, 4474.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0222, 100, 0606, '2025-10-02 10:00:00+00', 94270.0, 3990.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0015, 073, 0439, '2025-06-15 10:00:00+00', 99705.0, 2230.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0445, 099, 0594, '2025-03-24 10:00:00+00', 42261.0, 1420.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0006, 071, 0428, '2024-07-12 10:00:00+00', 26857.0, 528.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0517, 006, 0035, '2025-01-09 10:00:00+00', 107414.0, 4550.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0491, 016, 0101, '2024-02-22 10:00:00+00', 61639.0, 4257.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 095, 0572, '2025-04-17 10:00:00+00', 171304.0, 3531.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0136, 061, 0368, '2024-06-28 10:00:00+00', 173087.0, 2158.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0093, 003, 0017, '2024-09-19 10:00:00+00', 128540.0, 2697.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0471, 097, 0585, '2024-10-17 10:00:00+00', 58316.0, 399.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0475, 023, 0142, '2025-01-06 10:00:00+00', 86135.0, 1715.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0642, 079, 0476, '2025-11-02 10:00:00+00', 45412.0, 779.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0341, 090, 0544, '2024-07-28 10:00:00+00', 180893.0, 2629.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0277, 092, 0556, '2025-08-13 10:00:00+00', 158115.0, 1896.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0083, 057, 0344, '2025-10-09 10:00:00+00', 177837.0, 4416.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0373, 009, 0053, '2024-11-30 10:00:00+00', 80379.0, 3337.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0477, 007, 0042, '2025-05-08 10:00:00+00', 133460.0, 3201.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0573, 011, 0069, '2025-09-11 10:00:00+00', 21911.0, 1877.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0343, 041, 0245, '2025-09-17 10:00:00+00', 155460.0, 1130.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0490, 099, 0595, '2024-02-26 10:00:00+00', 37366.0, 2046.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0362, 046, 0274, '2025-09-28 10:00:00+00', 174962.0, 3664.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0056, 011, 0065, '2024-10-13 10:00:00+00', 176195.0, 3028.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0498, 085, 0514, '2025-05-04 10:00:00+00', 113657.0, 1205.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0545, 091, 0546, '2024-09-05 10:00:00+00', 180910.0, 3902.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0377, 011, 0068, '2025-09-20 10:00:00+00', 66623.0, 3950.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0083, 066, 0401, '2024-11-30 10:00:00+00', 179868.0, 2562.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0112, 028, 0169, '2024-04-23 10:00:00+00', 92482.0, 1117.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0152, 084, 0509, '2025-01-27 10:00:00+00', 184984.0, 1873.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0643, 004, 0024, '2024-07-13 10:00:00+00', 95612.0, 3612.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0555, 022, 0136, '2025-11-07 10:00:00+00', 163763.0, 3040.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0455, 004, 0022, '2025-11-06 10:00:00+00', 61172.0, 1748.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0023, 040, 0238, '2025-01-15 10:00:00+00', 40312.0, 2951.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0593, 059, 0352, '2024-04-29 10:00:00+00', 150896.0, 4182.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0543, 093, 0562, '2025-12-16 10:00:00+00', 22091.0, 3951.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0581, 022, 0136, '2025-05-13 10:00:00+00', 17749.0, 1606.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0233, 082, 0496, '2025-03-21 10:00:00+00', 112428.0, 2560.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0152, 060, 0362, '2024-11-16 10:00:00+00', 187178.0, 3934.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0634, 027, 0165, '2025-05-17 10:00:00+00', 191555.0, 2536.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0180, 026, 0158, '2024-10-28 10:00:00+00', 92209.0, 2148.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0043, 054, 0325, '2025-08-04 10:00:00+00', 195740.0, 1236.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0267, 063, 0379, '2024-06-21 10:00:00+00', 13766.0, 1880.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0036, 054, 0325, '2024-07-16 10:00:00+00', 192812.0, 1411.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0460, 092, 0553, '2025-05-31 10:00:00+00', 95391.0, 4571.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0125, 004, 0026, '2024-11-02 10:00:00+00', 148953.0, 4291.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0470, 055, 0328, '2025-02-02 10:00:00+00', 13611.0, 235.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0560, 086, 0520, '2025-08-14 10:00:00+00', 49139.0, 2621.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0297, 097, 0588, '2024-10-11 10:00:00+00', 136291.0, 4830.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0453, 058, 0347, '2025-07-12 10:00:00+00', 53996.0, 4123.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0143, 094, 0565, '2025-11-19 10:00:00+00', 139408.0, 2723.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0412, 038, 0226, '2025-04-28 10:00:00+00', 123998.0, 3127.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0335, 009, 0057, '2025-09-08 10:00:00+00', 28294.0, 1798.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0540, 038, 0228, '2024-01-08 10:00:00+00', 75051.0, 1803.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 092, 0552, '2024-02-02 10:00:00+00', 178399.0, 915.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0404, 033, 0200, '2025-03-25 10:00:00+00', 43841.0, 2803.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0620, 087, 0524, '2025-04-02 10:00:00+00', 114382.0, 3157.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0152, 072, 0438, '2025-12-16 10:00:00+00', 188575.0, 3363.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0013, 049, 0292, '2025-08-17 10:00:00+00', 53236.0, 3078.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0457, 095, 0575, '2025-02-27 10:00:00+00', 195325.0, 1966.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0455, 070, 0426, '2024-04-11 10:00:00+00', 63645.0, 2564.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0435, 070, 0425, '2025-11-23 10:00:00+00', 107601.0, 905.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0213, 052, 0311, '2024-01-20 10:00:00+00', 96596.0, 4503.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0068, 100, 0605, '2025-01-16 10:00:00+00', 60202.0, 924.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0420, 047, 0280, '2025-07-08 10:00:00+00', 28589.0, 1632.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0474, 096, 0582, '2025-06-26 10:00:00+00', 178903.0, 1832.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0391, 050, 0297, '2024-09-11 10:00:00+00', 74457.0, 4218.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0310, 100, 0600, '2025-10-27 10:00:00+00', 197880.0, 4247.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0475, 038, 0230, '2025-09-24 10:00:00+00', 79933.0, 220.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0269, 051, 0308, '2024-02-27 10:00:00+00', 25478.0, 1217.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0295, 071, 0428, '2024-11-10 10:00:00+00', 98574.0, 4229.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0251, 005, 0030, '2024-09-22 10:00:00+00', 160458.0, 2470.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0069, 062, 0371, '2024-04-28 10:00:00+00', 17032.0, 4136.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0447, 045, 0265, '2024-06-23 10:00:00+00', 44352.0, 1179.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0525, 098, 0590, '2025-03-11 10:00:00+00', 127985.0, 2326.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0596, 010, 0060, '2024-12-06 10:00:00+00', 83724.0, 2818.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0139, 061, 0366, '2025-05-25 10:00:00+00', 179983.0, 633.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0370, 071, 0430, '2025-01-08 10:00:00+00', 75365.0, 599.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0299, 090, 0543, '2025-04-19 10:00:00+00', 126606.0, 4409.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0644, 031, 0188, '2025-10-10 10:00:00+00', 196489.0, 1569.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0331, 054, 0324, '2024-10-29 10:00:00+00', 188886.0, 2423.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0372, 016, 0099, '2025-09-17 10:00:00+00', 93832.0, 4951.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0148, 003, 0014, '2024-06-28 10:00:00+00', 38893.0, 4444.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0382, 082, 0497, '2025-11-20 10:00:00+00', 108595.0, 2987.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0105, 037, 0224, '2025-05-09 10:00:00+00', 47213.0, 4323.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 095, 0573, '2025-12-04 10:00:00+00', 55792.0, 4558.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0565, 019, 0117, '2024-10-12 10:00:00+00', 86289.0, 3972.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0120, 022, 0135, '2025-06-24 10:00:00+00', 69372.0, 4128.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0320, 062, 0372, '2024-02-05 10:00:00+00', 177693.0, 3820.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0536, 059, 0351, '2025-09-05 10:00:00+00', 16907.0, 2695.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0122, 038, 0228, '2025-12-07 10:00:00+00', 192679.0, 1366.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0233, 052, 0315, '2025-04-08 10:00:00+00', 108388.0, 1919.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0081, 072, 0436, '2024-07-02 10:00:00+00', 91673.0, 836.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0496, 073, 0442, '2025-09-04 10:00:00+00', 92268.0, 1808.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0034, 087, 0526, '2025-12-27 10:00:00+00', 170534.0, 685.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0122, 044, 0260, '2025-12-29 10:00:00+00', 191280.0, 742.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0011, 016, 0099, '2024-06-25 10:00:00+00', 186446.0, 1882.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0205, 031, 0190, '2025-12-02 10:00:00+00', 132671.0, 439.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0150, 048, 0285, '2024-07-01 10:00:00+00', 94246.0, 3049.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0165, 085, 0513, '2025-10-14 10:00:00+00', 174310.0, 4336.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0070, 017, 0102, '2025-03-02 10:00:00+00', 161687.0, 314.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0223, 033, 0197, '2024-04-28 10:00:00+00', 88386.0, 1607.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0005, 017, 0102, '2025-05-18 10:00:00+00', 128829.0, 4330.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0487, 063, 0376, '2025-05-31 10:00:00+00', 113840.0, 1716.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0110, 031, 0186, '2025-01-14 10:00:00+00', 25117.0, 3309.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0220, 087, 0527, '2024-05-03 10:00:00+00', 18894.0, 3538.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0322, 021, 0127, '2024-05-15 10:00:00+00', 15980.0, 1103.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0140, 084, 0508, '2025-07-24 10:00:00+00', 149805.0, 2561.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0042, 014, 0085, '2024-03-07 10:00:00+00', 167119.0, 4244.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0395, 049, 0291, '2025-09-19 10:00:00+00', 162502.0, 2755.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0455, 039, 0232, '2024-03-18 10:00:00+00', 65471.0, 3536.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0439, 032, 0194, '2024-07-10 10:00:00+00', 156535.0, 4096.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0377, 030, 0184, '2025-06-18 10:00:00+00', 63747.0, 4227.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0108, 067, 0406, '2024-09-12 10:00:00+00', 34262.0, 4481.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0088, 020, 0123, '2024-10-18 10:00:00+00', 7996.0, 3434.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0605, 017, 0105, '2025-04-02 10:00:00+00', 107537.0, 730.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0204, 058, 0347, '2024-01-14 10:00:00+00', 105117.0, 3511.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0239, 072, 0435, '2024-06-13 10:00:00+00', 117288.0, 2481.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0596, 047, 0280, '2024-03-02 10:00:00+00', 87887.0, 3117.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0618, 069, 0415, '2025-04-12 10:00:00+00', 30676.0, 4389.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0151, 077, 0466, '2024-03-17 10:00:00+00', 30680.0, 1200.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0502, 084, 0510, '2025-09-22 10:00:00+00', 75185.0, 1302.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0102, 009, 0055, '2025-08-14 10:00:00+00', 88260.0, 4280.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0028, 030, 0184, '2025-06-09 10:00:00+00', 81764.0, 2878.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0311, 016, 0099, '2024-03-11 10:00:00+00', 182450.0, 4459.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0478, 034, 0207, '2025-05-03 10:00:00+00', 192686.0, 4278.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0517, 045, 0268, '2024-10-14 10:00:00+00', 109327.0, 3014.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0560, 003, 0019, '2025-11-05 10:00:00+00', 44229.0, 3725.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0393, 077, 0461, '2024-07-09 10:00:00+00', 179828.0, 3282.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0471, 006, 0037, '2024-12-13 10:00:00+00', 49292.0, 1648.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0311, 028, 0169, '2024-03-05 10:00:00+00', 189249.0, 3728.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0320, 066, 0399, '2025-12-22 10:00:00+00', 183402.0, 1096.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0503, 094, 0568, '2025-05-22 10:00:00+00', 27491.0, 4887.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0488, 095, 0576, '2024-01-29 10:00:00+00', 70359.0, 4350.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0401, 045, 0270, '2024-08-24 10:00:00+00', 47763.0, 3294.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0362, 049, 0292, '2024-02-08 10:00:00+00', 171962.0, 703.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0605, 008, 0047, '2024-08-06 10:00:00+00', 106873.0, 3201.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0598, 005, 0028, '2024-10-22 10:00:00+00', 146111.0, 3317.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0439, 059, 0354, '2024-03-07 10:00:00+00', 161250.0, 3574.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0058, 042, 0251, '2024-07-19 10:00:00+00', 10222.0, 2122.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0320, 014, 0087, '2025-01-04 10:00:00+00', 176489.0, 2697.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0346, 029, 0174, '2025-05-07 10:00:00+00', 49203.0, 4610.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0039, 078, 0472, '2024-10-07 10:00:00+00', 132932.0, 4853.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 046, 0274, '2025-04-19 10:00:00+00', 72886.0, 4047.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0023, 054, 0325, '2024-11-11 10:00:00+00', 37987.0, 4872.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0331, 097, 0587, '2025-06-06 10:00:00+00', 185555.0, 4200.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0211, 058, 0345, '2025-02-20 10:00:00+00', 56959.0, 4318.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0348, 028, 0171, '2025-12-26 10:00:00+00', 194126.0, 3176.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0207, 084, 0509, '2025-10-17 10:00:00+00', 160827.0, 4589.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0295, 046, 0272, '2025-12-29 10:00:00+00', 96414.0, 2635.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0412, 039, 0232, '2025-11-06 10:00:00+00', 118198.0, 4936.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0607, 058, 0345, '2024-07-29 10:00:00+00', 90234.0, 751.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0544, 081, 0487, '2025-06-16 10:00:00+00', 103204.0, 1918.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0079, 052, 0310, '2024-01-23 10:00:00+00', 174788.0, 2656.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0553, 053, 0321, '2025-04-26 10:00:00+00', 111908.0, 3594.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0258, 087, 0528, '2025-02-02 10:00:00+00', 35504.0, 4685.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0020, 088, 0529, '2024-12-20 10:00:00+00', 72661.0, 4925.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0219, 079, 0479, '2024-11-09 10:00:00+00', 81587.0, 4564.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0445, 096, 0580, '2025-11-10 10:00:00+00', 39599.0, 4478.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0374, 079, 0474, '2024-03-20 10:00:00+00', 27185.0, 2169.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0308, 074, 0446, '2025-09-26 10:00:00+00', 48538.0, 2810.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0650, 035, 0209, '2025-02-05 10:00:00+00', 158459.0, 2386.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0165, 044, 0263, '2025-05-30 10:00:00+00', 180198.0, 2134.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0245, 019, 0117, '2024-07-01 10:00:00+00', 113519.0, 1772.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0252, 053, 0318, '2025-07-12 10:00:00+00', 178907.0, 4176.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0447, 071, 0433, '2024-09-12 10:00:00+00', 37159.0, 1854.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0280, 023, 0140, '2025-07-02 10:00:00+00', 25150.0, 2316.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0564, 030, 0181, '2025-11-05 10:00:00+00', 158522.0, 4180.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0057, 014, 0086, '2025-09-12 10:00:00+00', 171127.0, 2641.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0417, 062, 0373, '2025-09-19 10:00:00+00', 123551.0, 3451.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0144, 041, 0242, '2025-08-12 10:00:00+00', 120861.0, 4877.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0513, 020, 0124, '2024-04-17 10:00:00+00', 63299.0, 4954.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0258, 084, 0509, '2024-06-23 10:00:00+00', 29557.0, 2150.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0126, 053, 0321, '2024-08-17 10:00:00+00', 129722.0, 4986.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0400, 041, 0242, '2025-07-08 10:00:00+00', 168305.0, 1985.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0110, 030, 0180, '2024-12-18 10:00:00+00', 22811.0, 2449.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0419, 044, 0261, '2024-10-21 10:00:00+00', 16044.0, 658.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0547, 064, 0384, '2024-01-13 10:00:00+00', 92526.0, 2792.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0434, 081, 0487, '2024-12-16 10:00:00+00', 16205.0, 2475.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0372, 081, 0487, '2025-06-24 10:00:00+00', 91102.0, 2724.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0621, 006, 0036, '2024-08-30 10:00:00+00', 155675.0, 2163.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0566, 065, 0394, '2025-08-24 10:00:00+00', 12251.0, 3172.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0125, 091, 0548, '2025-07-28 10:00:00+00', 146197.0, 3824.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0009, 067, 0403, '2025-04-18 10:00:00+00', 34184.0, 2664.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0242, 051, 0305, '2024-07-20 10:00:00+00', 180443.0, 1512.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0647, 054, 0325, '2025-08-24 10:00:00+00', 163059.0, 477.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0083, 083, 0504, '2024-10-06 10:00:00+00', 184657.0, 3582.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0433, 017, 0103, '2024-03-04 10:00:00+00', 134407.0, 2337.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0068, 060, 0361, '2024-07-04 10:00:00+00', 60941.0, 4686.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0335, 077, 0465, '2025-07-30 10:00:00+00', 18779.0, 626.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0189, 075, 0455, '2025-05-02 10:00:00+00', 115761.0, 225.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0205, 052, 0313, '2025-08-10 10:00:00+00', 132052.0, 4917.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0114, 026, 0162, '2025-10-02 10:00:00+00', 26792.0, 4430.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0134, 070, 0421, '2025-08-20 10:00:00+00', 84238.0, 3898.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0137, 045, 0267, '2024-04-18 10:00:00+00', 151119.0, 2883.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0204, 014, 0087, '2024-05-30 10:00:00+00', 108627.0, 3211.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0403, 064, 0387, '2024-03-28 10:00:00+00', 60855.0, 2038.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0024, 095, 0572, '2025-03-17 10:00:00+00', 154757.0, 928.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0204, 045, 0269, '2024-02-15 10:00:00+00', 104600.0, 607.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0633, 073, 0440, '2025-08-22 10:00:00+00', 123351.0, 2331.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0092, 063, 0377, '2025-12-25 10:00:00+00', 33889.0, 4846.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0015, 089, 0539, '2024-07-13 10:00:00+00', 102793.0, 3916.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0507, 020, 0122, '2025-03-23 10:00:00+00', 139727.0, 1864.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0273, 050, 0295, '2024-03-08 10:00:00+00', 149491.0, 3329.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0442, 035, 0212, '2025-03-17 10:00:00+00', 35406.0, 1965.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0194, 071, 0429, '2024-02-22 10:00:00+00', 168818.0, 3546.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0030, 050, 0298, '2025-01-20 10:00:00+00', 136227.0, 2129.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0462, 043, 0255, '2025-12-27 10:00:00+00', 189205.0, 4975.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0470, 015, 0088, '2025-07-19 10:00:00+00', 11224.0, 4041.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0332, 068, 0408, '2024-07-19 10:00:00+00', 107356.0, 3341.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0434, 044, 0263, '2024-08-07 10:00:00+00', 13365.0, 980.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0061, 009, 0054, '2024-04-08 10:00:00+00', 92610.0, 2123.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0363, 008, 0047, '2024-04-29 10:00:00+00', 153799.0, 2277.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0635, 065, 0391, '2024-01-20 10:00:00+00', 96914.0, 3433.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0380, 022, 0136, '2024-01-08 10:00:00+00', 55906.0, 536.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0184, 045, 0267, '2024-07-23 10:00:00+00', 168052.0, 4326.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0348, 080, 0480, '2024-12-06 10:00:00+00', 191380.0, 934.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0544, 073, 0444, '2024-11-15 10:00:00+00', 98530.0, 2333.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0321, 008, 0046, '2024-10-31 10:00:00+00', 133021.0, 4289.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0370, 073, 0441, '2025-11-08 10:00:00+00', 74168.0, 2356.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0271, 088, 0530, '2024-05-19 10:00:00+00', 153594.0, 3769.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0324, 083, 0504, '2024-07-03 10:00:00+00', 186624.0, 4752.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0451, 009, 0055, '2025-11-15 10:00:00+00', 56306.0, 1417.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0236, 031, 0188, '2025-01-11 10:00:00+00', 7805.0, 4052.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0168, 079, 0479, '2025-05-22 10:00:00+00', 95741.0, 1150.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0042, 075, 0453, '2025-12-14 10:00:00+00', 167585.0, 4794.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0469, 083, 0505, '2024-03-27 10:00:00+00', 160700.0, 1412.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0358, 016, 0096, '2024-02-03 10:00:00+00', 185884.0, 2527.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0173, 086, 0521, '2025-08-29 10:00:00+00', 193116.0, 4814.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0600, 036, 0218, '2024-05-07 10:00:00+00', 117600.0, 233.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0585, 030, 0185, '2024-10-16 10:00:00+00', 192013.0, 829.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0511, 016, 0097, '2024-04-09 10:00:00+00', 109413.0, 412.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0125, 067, 0404, '2024-10-27 10:00:00+00', 148445.0, 1068.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0158, 005, 0030, '2025-12-08 10:00:00+00', 38447.0, 3970.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0492, 077, 0465, '2025-10-15 10:00:00+00', 15213.0, 247.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0045, 077, 0464, '2024-03-24 10:00:00+00', 179930.0, 4862.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0217, 008, 0050, '2024-09-11 10:00:00+00', 84632.0, 2847.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0073, 093, 0561, '2025-04-30 10:00:00+00', 73808.0, 3324.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0409, 044, 0262, '2024-03-11 10:00:00+00', 75498.0, 2166.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0092, 004, 0022, '2024-08-07 10:00:00+00', 34513.0, 1534.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0413, 049, 0292, '2024-12-02 10:00:00+00', 155549.0, 1187.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0503, 073, 0443, '2024-09-26 10:00:00+00', 23734.0, 1275.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0099, 063, 0377, '2024-04-17 10:00:00+00', 149568.0, 1837.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0457, 066, 0398, '2025-06-13 10:00:00+00', 201695.0, 2399.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0615, 072, 0434, '2024-02-07 10:00:00+00', 29468.0, 3661.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0629, 032, 0191, '2024-09-29 10:00:00+00', 13719.0, 3689.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0042, 087, 0526, '2024-10-14 10:00:00+00', 167343.0, 3997.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0230, 026, 0159, '2024-08-22 10:00:00+00', 45587.0, 4519.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0538, 014, 0086, '2025-07-11 10:00:00+00', 190567.0, 4035.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0082, 081, 0490, '2024-12-13 10:00:00+00', 187995.0, 1417.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0308, 043, 0255, '2025-05-17 10:00:00+00', 50387.0, 3703.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0583, 008, 0049, '2024-04-18 10:00:00+00', 62457.0, 826.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0526, 018, 0111, '2024-05-26 10:00:00+00', 199077.0, 3680.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0097, 079, 0476, '2025-08-04 10:00:00+00', 197667.0, 2275.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0261, 100, 0600, '2025-04-15 10:00:00+00', 11035.0, 4324.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0117, 079, 0474, '2024-09-03 10:00:00+00', 169434.0, 1692.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0047, 014, 0086, '2024-11-27 10:00:00+00', 145689.0, 2638.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0602, 077, 0466, '2024-12-31 10:00:00+00', 77928.0, 2371.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0192, 036, 0217, '2025-08-31 10:00:00+00', 76485.0, 840.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0619, 045, 0266, '2025-03-22 10:00:00+00', 42012.0, 3753.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0019, 001, 0006, '2024-01-09 10:00:00+00', 184661.0, 1155.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0176, 081, 0489, '2025-12-20 10:00:00+00', 12718.0, 3518.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0617, 082, 0499, '2024-03-28 10:00:00+00', 19356.0, 3155.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0405, 052, 0310, '2025-12-29 10:00:00+00', 184315.0, 1224.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0015, 032, 0196, '2024-08-05 10:00:00+00', 97497.0, 330.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 005, 0028, '2024-04-16 10:00:00+00', 50608.0, 4141.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0149, 042, 0248, '2025-03-13 10:00:00+00', 133602.0, 4612.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0089, 052, 0309, '2024-09-13 10:00:00+00', 152688.0, 1413.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0433, 004, 0023, '2024-08-19 10:00:00+00', 133688.0, 1560.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0456, 082, 0497, '2025-06-10 10:00:00+00', 123223.0, 360.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0600, 042, 0249, '2025-01-17 10:00:00+00', 111338.0, 2615.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0402, 009, 0053, '2025-03-07 10:00:00+00', 189871.0, 264.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0646, 073, 0443, '2024-12-01 10:00:00+00', 134198.0, 4260.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0593, 094, 0568, '2025-06-27 10:00:00+00', 150314.0, 503.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0410, 082, 0498, '2024-04-01 10:00:00+00', 44298.0, 4196.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0063, 090, 0541, '2025-10-07 10:00:00+00', 190381.0, 3657.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0324, 094, 0567, '2025-10-02 10:00:00+00', 185186.0, 2394.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0428, 080, 0485, '2025-09-22 10:00:00+00', 81493.0, 4253.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0356, 076, 0460, '2024-08-01 10:00:00+00', 20226.0, 370.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0295, 033, 0197, '2025-11-17 10:00:00+00', 103324.0, 3016.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0238, 086, 0520, '2025-08-16 10:00:00+00', 74658.0, 2978.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0480, 022, 0135, '2025-09-05 10:00:00+00', 100814.0, 3397.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0369, 080, 0484, '2024-01-14 10:00:00+00', 90578.0, 1897.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0089, 082, 0495, '2025-04-16 10:00:00+00', 147211.0, 1619.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0161, 083, 0504, '2024-03-21 10:00:00+00', 55713.0, 3607.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0311, 040, 0241, '2024-01-18 10:00:00+00', 184628.0, 4761.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0019, 061, 0368, '2025-03-04 10:00:00+00', 182464.0, 3124.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0163, 030, 0179, '2025-12-26 10:00:00+00', 157607.0, 461.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0346, 073, 0441, '2025-09-22 10:00:00+00', 50748.0, 2057.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0576, 038, 0230, '2025-11-25 10:00:00+00', 124763.0, 2312.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0364, 008, 0048, '2025-10-31 10:00:00+00', 90318.0, 2391.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0528, 017, 0107, '2025-05-04 10:00:00+00', 32361.0, 3786.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0114, 018, 0109, '2025-12-01 10:00:00+00', 32691.0, 1034.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0043, 086, 0520, '2024-12-08 10:00:00+00', 188054.0, 1568.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0121, 035, 0211, '2024-11-17 10:00:00+00', 170526.0, 1486.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0300, 075, 0453, '2024-06-01 10:00:00+00', 130484.0, 4282.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0102, 026, 0158, '2025-10-04 10:00:00+00', 93102.0, 2941.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0126, 034, 0207, '2024-09-04 10:00:00+00', 131521.0, 3605.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0252, 080, 0486, '2025-04-18 10:00:00+00', 176895.0, 2549.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0176, 015, 0088, '2024-12-13 10:00:00+00', 9537.0, 3250.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0425, 062, 0370, '2024-06-04 10:00:00+00', 18474.0, 1441.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 039, 0234, '2025-09-02 10:00:00+00', 74812.0, 3712.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0420, 078, 0470, '2024-05-16 10:00:00+00', 30254.0, 3163.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0454, 025, 0150, '2025-12-12 10:00:00+00', 194119.0, 4438.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0087, 058, 0347, '2024-12-07 10:00:00+00', 106906.0, 3490.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0445, 010, 0063, '2025-09-09 10:00:00+00', 45061.0, 503.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0155, 098, 0589, '2024-12-25 10:00:00+00', 57886.0, 4458.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0430, 068, 0412, '2024-01-16 10:00:00+00', 82517.0, 2693.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0322, 059, 0353, '2025-10-11 10:00:00+00', 8476.0, 2491.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0626, 025, 0151, '2025-02-23 10:00:00+00', 120311.0, 3855.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0211, 093, 0558, '2024-01-16 10:00:00+00', 56065.0, 3028.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0415, 034, 0203, '2025-02-17 10:00:00+00', 155406.0, 890.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0551, 057, 0343, '2025-02-13 10:00:00+00', 80216.0, 1232.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0554, 049, 0291, '2024-03-02 10:00:00+00', 72022.0, 960.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0566, 053, 0320, '2024-03-18 10:00:00+00', 15725.0, 2991.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0164, 004, 0024, '2024-09-24 10:00:00+00', 105861.0, 4623.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0265, 042, 0248, '2025-01-10 10:00:00+00', 99824.0, 3663.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0114, 010, 0062, '2024-02-23 10:00:00+00', 28813.0, 2327.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0520, 061, 0363, '2025-05-07 10:00:00+00', 91444.0, 591.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0128, 076, 0460, '2025-04-14 10:00:00+00', 186597.0, 4889.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0006, 077, 0465, '2025-08-31 10:00:00+00', 31686.0, 2134.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0596, 096, 0580, '2024-07-15 10:00:00+00', 90067.0, 2115.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0307, 049, 0292, '2024-01-28 10:00:00+00', 151219.0, 1346.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0387, 088, 0533, '2025-07-13 10:00:00+00', 144420.0, 1062.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0529, 099, 0597, '2025-11-30 10:00:00+00', 180350.0, 3159.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0101, 025, 0151, '2025-11-05 10:00:00+00', 71991.0, 3575.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0095, 011, 0064, '2025-09-13 10:00:00+00', 183557.0, 1265.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0220, 076, 0457, '2024-05-12 10:00:00+00', 16445.0, 3225.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0539, 068, 0413, '2024-03-20 10:00:00+00', 107870.0, 4779.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0405, 046, 0271, '2024-12-26 10:00:00+00', 192453.0, 4286.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0434, 075, 0451, '2025-05-12 10:00:00+00', 20189.0, 3615.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0148, 086, 0518, '2025-07-14 10:00:00+00', 38732.0, 4171.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0469, 022, 0133, '2024-03-17 10:00:00+00', 167265.0, 4534.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0218, 077, 0467, '2024-12-12 10:00:00+00', 184403.0, 467.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0161, 095, 0573, '2024-02-23 10:00:00+00', 60111.0, 1172.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0419, 018, 0113, '2024-04-11 10:00:00+00', 8366.0, 3227.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0297, 007, 0042, '2024-01-21 10:00:00+00', 142447.0, 1455.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0381, 052, 0313, '2025-09-16 10:00:00+00', 68497.0, 2684.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0498, 005, 0029, '2025-02-22 10:00:00+00', 107368.0, 1364.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 008, 0050, '2025-08-10 10:00:00+00', 77551.0, 2522.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0188, 083, 0501, '2024-05-02 10:00:00+00', 5369.0, 1202.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0358, 012, 0070, '2024-10-26 10:00:00+00', 183279.0, 3620.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0587, 053, 0318, '2024-12-24 10:00:00+00', 143098.0, 3905.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0387, 081, 0487, '2024-06-08 10:00:00+00', 150286.0, 1287.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0517, 078, 0472, '2024-11-25 10:00:00+00', 107811.0, 3878.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0334, 015, 0092, '2025-04-10 10:00:00+00', 197751.0, 3372.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0405, 058, 0348, '2024-07-21 10:00:00+00', 191743.0, 575.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0454, 048, 0285, '2024-01-23 10:00:00+00', 195407.0, 1556.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0026, 097, 0586, '2025-09-21 10:00:00+00', 13295.0, 4796.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0127, 095, 0573, '2025-10-10 10:00:00+00', 50141.0, 1776.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0555, 098, 0591, '2025-02-17 10:00:00+00', 156865.0, 4871.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0194, 081, 0488, '2024-10-26 10:00:00+00', 174098.0, 352.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0545, 030, 0185, '2025-03-25 10:00:00+00', 176432.0, 2452.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0252, 099, 0594, '2024-02-18 10:00:00+00', 178581.0, 893.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0622, 055, 0329, '2024-09-14 10:00:00+00', 171187.0, 568.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0024, 058, 0349, '2025-03-08 10:00:00+00', 158170.0, 1678.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0025, 090, 0541, '2024-03-28 10:00:00+00', 102975.0, 3329.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0094, 019, 0118, '2025-06-07 10:00:00+00', 187137.0, 4638.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0293, 024, 0148, '2025-12-29 10:00:00+00', 156106.0, 2293.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0158, 052, 0315, '2025-10-10 10:00:00+00', 43791.0, 1586.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0630, 056, 0334, '2024-02-06 10:00:00+00', 197869.0, 422.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0060, 051, 0306, '2024-05-01 10:00:00+00', 131332.0, 1008.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0146, 070, 0423, '2025-10-20 10:00:00+00', 29889.0, 2312.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0124, 009, 0054, '2025-08-18 10:00:00+00', 78772.0, 2162.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0601, 041, 0243, '2024-10-19 10:00:00+00', 59967.0, 4366.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0395, 019, 0118, '2025-04-13 10:00:00+00', 159428.0, 696.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0476, 094, 0567, '2024-02-11 10:00:00+00', 56392.0, 736.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0030, 069, 0418, '2024-02-10 10:00:00+00', 135767.0, 352.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0568, 100, 0601, '2025-10-21 10:00:00+00', 192703.0, 2217.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0129, 052, 0312, '2025-08-24 10:00:00+00', 17531.0, 3532.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 085, 0513, '2024-10-13 10:00:00+00', 174434.0, 1366.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0554, 028, 0173, '2024-01-04 10:00:00+00', 72537.0, 4603.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0569, 077, 0463, '2025-07-29 10:00:00+00', 54552.0, 208.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0636, 050, 0297, '2024-12-24 10:00:00+00', 96648.0, 204.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0494, 047, 0280, '2024-10-21 10:00:00+00', 54295.0, 2255.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0390, 060, 0360, '2024-01-27 10:00:00+00', 47869.0, 4993.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0289, 008, 0047, '2025-12-03 10:00:00+00', 134174.0, 4575.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0072, 051, 0308, '2024-01-29 10:00:00+00', 154684.0, 3438.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0126, 023, 0144, '2024-12-23 10:00:00+00', 133444.0, 2489.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0216, 086, 0517, '2025-06-21 10:00:00+00', 49064.0, 3006.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0268, 077, 0464, '2025-08-27 10:00:00+00', 180008.0, 2214.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0330, 058, 0350, '2024-06-08 10:00:00+00', 166624.0, 3966.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0337, 003, 0017, '2025-06-12 10:00:00+00', 55390.0, 216.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0488, 001, 0005, '2025-01-26 10:00:00+00', 67955.0, 1621.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0570, 083, 0501, '2025-03-02 10:00:00+00', 76287.0, 4608.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0080, 092, 0552, '2025-01-26 10:00:00+00', 97471.0, 3846.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0127, 060, 0362, '2025-12-11 10:00:00+00', 54912.0, 3132.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0182, 002, 0009, '2024-05-25 10:00:00+00', 87475.0, 3990.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0198, 076, 0456, '2024-02-06 10:00:00+00', 18164.0, 2014.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0021, 048, 0288, '2024-11-15 10:00:00+00', 197423.0, 1768.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0629, 052, 0311, '2024-08-03 10:00:00+00', 10230.0, 2119.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0372, 007, 0038, '2025-10-29 10:00:00+00', 89676.0, 4237.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0621, 036, 0215, '2025-12-07 10:00:00+00', 154896.0, 1806.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0406, 018, 0114, '2024-10-21 10:00:00+00', 192426.0, 4862.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0506, 029, 0175, '2025-03-06 10:00:00+00', 170333.0, 1787.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0580, 096, 0579, '2024-05-18 10:00:00+00', 196472.0, 735.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0132, 011, 0067, '2024-07-15 10:00:00+00', 156911.0, 2326.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0234, 089, 0536, '2024-06-29 10:00:00+00', 179200.0, 1771.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0024, 091, 0546, '2025-02-06 10:00:00+00', 155153.0, 4788.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0003, 072, 0438, '2024-12-18 10:00:00+00', 143313.0, 2846.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0417, 047, 0281, '2024-09-26 10:00:00+00', 124066.0, 4445.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0508, 062, 0371, '2025-08-30 10:00:00+00', 29216.0, 556.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0230, 008, 0049, '2024-04-16 10:00:00+00', 42025.0, 3641.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0460, 054, 0324, '2025-03-13 10:00:00+00', 92812.0, 3410.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0343, 014, 0084, '2024-08-05 10:00:00+00', 155987.0, 407.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0232, 072, 0434, '2025-01-06 10:00:00+00', 96461.0, 2247.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0169, 056, 0338, '2024-02-04 10:00:00+00', 133741.0, 714.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0641, 016, 0100, '2024-02-07 10:00:00+00', 29731.0, 4131.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0025, 057, 0343, '2024-08-30 10:00:00+00', 101878.0, 2224.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0485, 041, 0245, '2024-10-13 10:00:00+00', 12475.0, 645.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0533, 041, 0243, '2024-07-25 10:00:00+00', 91300.0, 3792.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0641, 076, 0458, '2025-11-15 10:00:00+00', 38760.0, 1222.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0063, 006, 0035, '2025-01-13 10:00:00+00', 196253.0, 2766.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0067, 021, 0131, '2024-12-12 10:00:00+00', 187794.0, 3820.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0309, 073, 0443, '2025-08-20 10:00:00+00', 55240.0, 1034.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0058, 095, 0573, '2025-03-09 10:00:00+00', 7021.0, 2615.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0412, 016, 0099, '2024-06-07 10:00:00+00', 123427.0, 2109.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0639, 002, 0011, '2024-11-13 10:00:00+00', 109836.0, 3345.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0439, 017, 0104, '2025-09-08 10:00:00+00', 160959.0, 412.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0530, 056, 0337, '2025-03-24 10:00:00+00', 42289.0, 1776.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0106, 002, 0013, '2024-08-04 10:00:00+00', 41087.0, 753.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0199, 097, 0587, '2025-02-19 10:00:00+00', 101653.0, 4368.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0364, 071, 0432, '2025-07-20 10:00:00+00', 89079.0, 3842.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0249, 023, 0141, '2024-04-05 10:00:00+00', 152268.0, 695.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0320, 099, 0599, '2025-06-03 10:00:00+00', 182556.0, 4403.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0367, 053, 0319, '2024-09-10 10:00:00+00', 97867.0, 4633.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0151, 080, 0481, '2025-01-11 10:00:00+00', 33967.0, 3009.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0378, 002, 0009, '2024-07-21 10:00:00+00', 147282.0, 1384.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0244, 086, 0520, '2025-02-28 10:00:00+00', 20838.0, 647.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0353, 033, 0201, '2025-07-13 10:00:00+00', 176427.0, 1848.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0350, 032, 0194, '2025-04-26 10:00:00+00', 59453.0, 4028.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0340, 098, 0593, '2024-06-13 10:00:00+00', 176352.0, 2949.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0307, 071, 0429, '2025-04-08 10:00:00+00', 147219.0, 1529.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 007, 0044, '2025-05-15 10:00:00+00', 101569.0, 1997.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0229, 039, 0236, '2025-05-11 10:00:00+00', 84464.0, 1946.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0493, 057, 0340, '2025-08-25 10:00:00+00', 198642.0, 1881.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0189, 001, 0007, '2024-09-23 10:00:00+00', 119476.0, 281.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0367, 005, 0031, '2025-05-30 10:00:00+00', 97393.0, 1143.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0298, 075, 0451, '2024-11-14 10:00:00+00', 141073.0, 4997.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0045, 005, 0031, '2025-11-29 10:00:00+00', 177869.0, 1820.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0179, 038, 0225, '2025-01-15 10:00:00+00', 107226.0, 1627.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0568, 042, 0252, '2025-09-08 10:00:00+00', 193965.0, 1805.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0181, 045, 0269, '2024-12-03 10:00:00+00', 89830.0, 371.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0141, 065, 0389, '2024-09-30 10:00:00+00', 193373.0, 2972.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0313, 078, 0468, '2024-08-17 10:00:00+00', 21666.0, 3228.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0176, 089, 0540, '2024-11-01 10:00:00+00', 12285.0, 735.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0148, 022, 0134, '2024-10-21 10:00:00+00', 39757.0, 1770.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0388, 064, 0384, '2025-03-04 10:00:00+00', 136591.0, 3718.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0251, 008, 0048, '2025-12-26 10:00:00+00', 168125.0, 1749.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0302, 025, 0153, '2024-11-24 10:00:00+00', 10412.0, 2224.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0645, 048, 0287, '2024-10-23 10:00:00+00', 8148.0, 4363.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0501, 036, 0215, '2025-02-04 10:00:00+00', 47912.0, 4055.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0630, 011, 0067, '2024-02-20 10:00:00+00', 197639.0, 4366.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0522, 064, 0384, '2025-02-23 10:00:00+00', 63399.0, 4450.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0184, 055, 0330, '2024-09-05 10:00:00+00', 171394.0, 4504.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0495, 084, 0507, '2025-03-04 10:00:00+00', 94439.0, 2398.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0411, 099, 0598, '2024-05-02 10:00:00+00', 88410.0, 1897.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0208, 077, 0463, '2025-08-09 10:00:00+00', 149221.0, 3443.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0314, 072, 0436, '2024-05-19 10:00:00+00', 57630.0, 4880.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0384, 044, 0261, '2024-08-06 10:00:00+00', 184026.0, 894.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0087, 051, 0303, '2025-02-26 10:00:00+00', 109031.0, 4450.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0236, 099, 0598, '2025-09-04 10:00:00+00', 7892.0, 4011.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0637, 058, 0345, '2024-06-03 10:00:00+00', 61101.0, 3895.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0443, 069, 0419, '2024-01-09 10:00:00+00', 137450.0, 4275.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0280, 065, 0392, '2024-10-21 10:00:00+00', 25077.0, 1671.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0240, 046, 0272, '2024-12-21 10:00:00+00', 104345.0, 3141.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0302, 085, 0514, '2025-02-14 10:00:00+00', 13445.0, 4678.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0081, 048, 0284, '2024-11-30 10:00:00+00', 93574.0, 1006.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0074, 061, 0369, '2025-01-28 10:00:00+00', 135470.0, 4673.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0342, 034, 0202, '2024-04-19 10:00:00+00', 189320.0, 2248.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0282, 032, 0196, '2024-12-14 10:00:00+00', 25236.0, 1329.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0557, 045, 0268, '2025-05-31 10:00:00+00', 49508.0, 2653.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0355, 068, 0414, '2025-09-16 10:00:00+00', 34323.0, 4950.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0013, 080, 0484, '2025-05-02 10:00:00+00', 55984.0, 1422.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0234, 039, 0233, '2025-08-11 10:00:00+00', 178144.0, 4086.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0529, 100, 0602, '2025-08-02 10:00:00+00', 186250.0, 4039.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0473, 058, 0349, '2024-11-06 10:00:00+00', 28229.0, 2764.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0440, 071, 0428, '2024-10-19 10:00:00+00', 60774.0, 3793.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0572, 005, 0031, '2024-02-08 10:00:00+00', 90392.0, 1338.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0132, 052, 0313, '2025-11-03 10:00:00+00', 154982.0, 4294.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0364, 058, 0348, '2025-02-02 10:00:00+00', 84886.0, 3633.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0414, 091, 0551, '2024-02-06 10:00:00+00', 154639.0, 2871.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0024, 096, 0582, '2025-12-22 10:00:00+00', 151537.0, 1339.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0339, 096, 0582, '2024-03-29 10:00:00+00', 70808.0, 4901.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0391, 035, 0210, '2024-08-05 10:00:00+00', 71783.0, 721.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0396, 032, 0193, '2025-03-08 10:00:00+00', 148212.0, 1089.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0584, 077, 0463, '2025-01-06 10:00:00+00', 158637.0, 963.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0107, 094, 0567, '2025-10-30 10:00:00+00', 120471.0, 462.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0618, 083, 0501, '2025-03-08 10:00:00+00', 23177.0, 1729.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0072, 066, 0396, '2025-03-08 10:00:00+00', 157865.0, 1886.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0299, 089, 0537, '2025-07-18 10:00:00+00', 126494.0, 3924.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0378, 088, 0531, '2024-09-14 10:00:00+00', 138981.0, 1607.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0421, 066, 0401, '2025-07-23 10:00:00+00', 17469.0, 1107.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0550, 071, 0429, '2025-07-01 10:00:00+00', 34473.0, 763.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0212, 022, 0134, '2025-03-22 10:00:00+00', 28912.0, 2737.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0487, 027, 0163, '2024-03-10 10:00:00+00', 114075.0, 4911.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0602, 035, 0208, '2024-10-11 10:00:00+00', 78789.0, 3959.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0207, 002, 0008, '2025-06-07 10:00:00+00', 161930.0, 3851.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0409, 043, 0253, '2024-03-04 10:00:00+00', 81197.0, 2894.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0503, 078, 0472, '2024-07-17 10:00:00+00', 26234.0, 4919.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0094, 050, 0295, '2025-10-23 10:00:00+00', 192986.0, 3040.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0305, 066, 0401, '2025-02-14 10:00:00+00', 195736.0, 3600.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0184, 073, 0443, '2025-02-18 10:00:00+00', 172770.0, 3351.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0188, 097, 0583, '2025-08-15 10:00:00+00', 6900.0, 3423.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0045, 041, 0246, '2025-03-12 10:00:00+00', 177194.0, 2442.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0551, 050, 0299, '2024-07-10 10:00:00+00', 74920.0, 1979.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0422, 094, 0567, '2024-01-11 10:00:00+00', 82082.0, 3220.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0108, 086, 0517, '2025-09-25 10:00:00+00', 32426.0, 3559.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0169, 043, 0259, '2025-09-30 10:00:00+00', 132046.0, 4345.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0474, 005, 0028, '2024-07-23 10:00:00+00', 177859.0, 3983.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0352, 068, 0409, '2024-06-24 10:00:00+00', 91128.0, 3449.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0011, 043, 0257, '2024-01-19 10:00:00+00', 186296.0, 1318.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0476, 082, 0497, '2025-10-03 10:00:00+00', 57281.0, 758.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0562, 042, 0249, '2024-07-06 10:00:00+00', 153205.0, 1348.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0286, 027, 0166, '2025-07-11 10:00:00+00', 112855.0, 347.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0103, 030, 0182, '2025-10-17 10:00:00+00', 178004.0, 1217.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0401, 028, 0173, '2025-07-05 10:00:00+00', 40929.0, 291.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0280, 026, 0158, '2024-11-29 10:00:00+00', 31892.0, 3133.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0222, 006, 0036, '2025-09-01 10:00:00+00', 95234.0, 1970.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0049, 089, 0536, '2025-05-16 10:00:00+00', 34090.0, 3399.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0316, 075, 0455, '2025-06-18 10:00:00+00', 165502.0, 238.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0387, 034, 0207, '2024-04-22 10:00:00+00', 144454.0, 3269.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0205, 015, 0094, '2024-02-21 10:00:00+00', 127174.0, 3654.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0015, 058, 0346, '2024-10-03 10:00:00+00', 98812.0, 717.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0099, 028, 0172, '2025-12-29 10:00:00+00', 143905.0, 560.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0525, 018, 0111, '2024-07-19 10:00:00+00', 133057.0, 2843.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0642, 032, 0195, '2025-01-03 10:00:00+00', 48783.0, 4637.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0439, 020, 0124, '2025-07-01 10:00:00+00', 159202.0, 1951.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0366, 055, 0332, '2024-03-04 10:00:00+00', 183820.0, 322.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0324, 002, 0013, '2024-06-02 10:00:00+00', 190522.0, 1942.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0226, 011, 0068, '2025-09-22 10:00:00+00', 26763.0, 3222.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0069, 037, 0224, '2024-10-19 10:00:00+00', 14247.0, 2670.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0512, 017, 0105, '2024-09-13 10:00:00+00', 199021.0, 4862.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0258, 016, 0098, '2025-04-07 10:00:00+00', 37907.0, 2857.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0398, 022, 0137, '2025-03-01 10:00:00+00', 67944.0, 1636.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0326, 082, 0494, '2025-08-01 10:00:00+00', 183191.0, 2945.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0624, 100, 0600, '2025-01-04 10:00:00+00', 59515.0, 3332.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0239, 085, 0516, '2024-04-19 10:00:00+00', 118736.0, 308.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0022, 021, 0128, '2025-04-28 10:00:00+00', 34051.0, 2136.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0439, 042, 0250, '2025-10-14 10:00:00+00', 156695.0, 690.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0384, 084, 0511, '2024-12-31 10:00:00+00', 179865.0, 1854.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0385, 035, 0210, '2025-03-13 10:00:00+00', 74647.0, 2150.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0613, 075, 0455, '2025-12-05 10:00:00+00', 23208.0, 1299.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0326, 007, 0041, '2024-09-15 10:00:00+00', 190618.0, 3598.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0296, 004, 0025, '2024-11-08 10:00:00+00', 11804.0, 2913.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0249, 035, 0211, '2025-11-27 10:00:00+00', 160382.0, 642.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0255, 038, 0228, '2024-10-13 10:00:00+00', 134911.0, 3325.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0330, 031, 0188, '2025-01-15 10:00:00+00', 170421.0, 249.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0504, 012, 0072, '2025-10-25 10:00:00+00', 12102.0, 626.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0145, 035, 0210, '2025-05-24 10:00:00+00', 110067.0, 951.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0607, 093, 0563, '2025-04-19 10:00:00+00', 89104.0, 2135.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0081, 072, 0437, '2024-07-14 10:00:00+00', 97495.0, 2751.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0203, 042, 0251, '2024-07-25 10:00:00+00', 35837.0, 1645.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0255, 052, 0311, '2025-07-02 10:00:00+00', 129624.0, 4922.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0207, 047, 0279, '2025-01-24 10:00:00+00', 167476.0, 855.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0408, 064, 0387, '2025-10-31 10:00:00+00', 132827.0, 4056.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0433, 086, 0518, '2025-03-10 10:00:00+00', 141764.0, 3750.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0494, 004, 0021, '2025-09-26 10:00:00+00', 50749.0, 3701.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0308, 091, 0551, '2025-04-17 10:00:00+00', 44320.0, 4728.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0180, 044, 0264, '2024-08-13 10:00:00+00', 95801.0, 3998.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0465, 049, 0291, '2025-11-17 10:00:00+00', 172014.0, 4805.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0493, 012, 0074, '2024-05-19 10:00:00+00', 197943.0, 1319.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0481, 033, 0201, '2024-02-21 10:00:00+00', 88240.0, 1753.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0014, 085, 0513, '2024-04-25 10:00:00+00', 152836.0, 4225.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0426, 067, 0405, '2025-08-29 10:00:00+00', 83448.0, 3346.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0316, 100, 0603, '2024-10-05 10:00:00+00', 165811.0, 3548.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0128, 066, 0395, '2024-03-11 10:00:00+00', 190982.0, 1530.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0447, 044, 0262, '2024-03-02 10:00:00+00', 42264.0, 4374.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0501, 063, 0378, '2024-09-02 10:00:00+00', 47524.0, 3356.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0253, 042, 0249, '2024-01-16 10:00:00+00', 44236.0, 482.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0647, 005, 0029, '2025-07-29 10:00:00+00', 158825.0, 2340.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0467, 025, 0151, '2024-07-31 10:00:00+00', 51633.0, 2226.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0593, 027, 0166, '2025-01-15 10:00:00+00', 145752.0, 1156.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0394, 068, 0408, '2024-06-26 10:00:00+00', 48127.0, 858.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0194, 072, 0434, '2025-01-20 10:00:00+00', 168579.0, 3696.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0310, 085, 0513, '2024-01-23 10:00:00+00', 201636.0, 3335.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0316, 070, 0422, '2024-05-01 10:00:00+00', 166100.0, 1095.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0587, 059, 0353, '2024-04-10 10:00:00+00', 136167.0, 2403.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0215, 068, 0408, '2024-04-07 10:00:00+00', 193655.0, 252.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0504, 001, 0002, '2025-03-15 10:00:00+00', 10536.0, 772.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0428, 089, 0538, '2024-07-27 10:00:00+00', 86407.0, 2562.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0442, 029, 0175, '2025-05-03 10:00:00+00', 28465.0, 3269.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0138, 034, 0203, '2024-09-09 10:00:00+00', 74048.0, 1690.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0113, 077, 0462, '2024-06-26 10:00:00+00', 157515.0, 1941.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0206, 010, 0061, '2025-01-04 10:00:00+00', 47610.0, 1771.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0419, 075, 0452, '2024-10-13 10:00:00+00', 8175.0, 1560.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0301, 015, 0088, '2024-02-09 10:00:00+00', 116947.0, 1221.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0066, 059, 0351, '2024-09-02 10:00:00+00', 106073.0, 4997.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0490, 082, 0497, '2024-02-07 10:00:00+00', 35580.0, 277.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0273, 002, 0008, '2025-01-05 10:00:00+00', 150937.0, 542.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0217, 089, 0535, '2025-06-25 10:00:00+00', 80115.0, 3277.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0533, 046, 0273, '2025-09-19 10:00:00+00', 98067.0, 4076.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0619, 073, 0440, '2024-03-24 10:00:00+00', 45784.0, 3237.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0352, 054, 0323, '2025-09-10 10:00:00+00', 91868.0, 3159.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0409, 064, 0388, '2024-12-17 10:00:00+00', 73519.0, 3116.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0103, 001, 0004, '2025-09-19 10:00:00+00', 180671.0, 3491.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0143, 004, 0027, '2025-09-28 10:00:00+00', 147355.0, 1206.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0287, 043, 0255, '2025-07-24 10:00:00+00', 191889.0, 3902.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0487, 087, 0528, '2024-02-13 10:00:00+00', 110952.0, 1739.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0330, 003, 0018, '2025-12-12 10:00:00+00', 169075.0, 574.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0334, 075, 0455, '2025-07-04 10:00:00+00', 194866.0, 4169.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0628, 014, 0084, '2024-02-13 10:00:00+00', 28489.0, 3705.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0103, 066, 0395, '2024-03-15 10:00:00+00', 177999.0, 1798.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0147, 088, 0533, '2024-05-14 10:00:00+00', 42066.0, 4333.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0131, 084, 0510, '2024-06-20 10:00:00+00', 90784.0, 2668.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0562, 079, 0479, '2025-02-04 10:00:00+00', 148787.0, 3855.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0494, 092, 0554, '2025-10-18 10:00:00+00', 48446.0, 2193.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0175, 015, 0092, '2025-03-01 10:00:00+00', 21452.0, 3762.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0030, 027, 0165, '2024-03-19 10:00:00+00', 137287.0, 3341.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0226, 044, 0264, '2025-07-26 10:00:00+00', 30004.0, 1208.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0140, 091, 0548, '2024-05-29 10:00:00+00', 151947.0, 940.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0341, 038, 0230, '2024-01-22 10:00:00+00', 189794.0, 729.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0352, 064, 0387, '2024-12-21 10:00:00+00', 94195.0, 4803.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0239, 038, 0229, '2024-07-04 10:00:00+00', 113355.0, 1147.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0090, 019, 0115, '2024-12-11 10:00:00+00', 136146.0, 2987.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0607, 032, 0193, '2025-11-21 10:00:00+00', 87658.0, 4892.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0131, 053, 0321, '2025-12-25 10:00:00+00', 95587.0, 4926.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0002, 053, 0319, '2025-09-05 10:00:00+00', 137665.0, 4587.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0398, 072, 0434, '2024-08-23 10:00:00+00', 67741.0, 3190.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0130, 088, 0533, '2024-10-28 10:00:00+00', 54199.0, 2019.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0405, 002, 0010, '2025-04-11 10:00:00+00', 191699.0, 3973.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0149, 051, 0304, '2024-08-25 10:00:00+00', 130049.0, 4294.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0467, 025, 0151, '2025-08-17 10:00:00+00', 57321.0, 2521.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0036, 055, 0328, '2025-04-22 10:00:00+00', 192239.0, 4315.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0127, 047, 0281, '2024-08-03 10:00:00+00', 58149.0, 4118.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0221, 084, 0507, '2024-07-22 10:00:00+00', 134350.0, 3285.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0342, 026, 0157, '2024-05-19 10:00:00+00', 187376.0, 2043.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0054, 030, 0184, '2024-06-18 10:00:00+00', 56071.0, 3409.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0164, 004, 0023, '2024-06-10 10:00:00+00', 114382.0, 3413.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0433, 080, 0485, '2024-08-21 10:00:00+00', 137486.0, 3406.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0074, 090, 0541, '2024-02-28 10:00:00+00', 139480.0, 2513.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0200, 093, 0562, '2024-08-27 10:00:00+00', 175314.0, 997.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0332, 099, 0595, '2025-02-06 10:00:00+00', 104766.0, 2690.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0168, 098, 0592, '2024-01-26 10:00:00+00', 90844.0, 3819.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0495, 050, 0299, '2025-02-04 10:00:00+00', 89049.0, 1918.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0201, 002, 0010, '2024-03-18 10:00:00+00', 65185.0, 4915.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0152, 064, 0386, '2025-02-10 10:00:00+00', 189516.0, 1578.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0099, 061, 0365, '2025-01-08 10:00:00+00', 148932.0, 1671.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0121, 087, 0528, '2025-09-08 10:00:00+00', 170146.0, 3753.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0643, 068, 0414, '2024-04-06 10:00:00+00', 94823.0, 478.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0247, 067, 0407, '2025-05-07 10:00:00+00', 106982.0, 2679.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0611, 029, 0177, '2024-12-27 10:00:00+00', 130094.0, 934.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0392, 047, 0282, '2025-03-02 10:00:00+00', 189299.0, 3209.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0123, 019, 0120, '2024-10-22 10:00:00+00', 143455.0, 1199.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0522, 039, 0231, '2025-07-24 10:00:00+00', 55608.0, 4893.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0492, 047, 0281, '2025-03-18 10:00:00+00', 12350.0, 1683.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0496, 074, 0445, '2024-04-25 10:00:00+00', 96460.0, 4881.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0102, 056, 0334, '2024-09-24 10:00:00+00', 88183.0, 4603.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0416, 004, 0021, '2024-04-04 10:00:00+00', 101721.0, 4755.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0543, 083, 0501, '2025-06-26 10:00:00+00', 15843.0, 4450.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0552, 021, 0128, '2024-07-16 10:00:00+00', 42576.0, 1161.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0614, 030, 0185, '2025-09-14 10:00:00+00', 43196.0, 4744.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0322, 021, 0126, '2024-03-17 10:00:00+00', 8988.0, 1255.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0212, 027, 0166, '2025-04-22 10:00:00+00', 26981.0, 4807.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0036, 014, 0087, '2025-02-19 10:00:00+00', 189222.0, 4346.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0373, 093, 0558, '2024-09-23 10:00:00+00', 81372.0, 3665.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0001, 043, 0255, '2024-07-06 10:00:00+00', 14309.0, 578.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0301, 091, 0547, '2024-05-11 10:00:00+00', 118048.0, 1345.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0503, 053, 0321, '2025-04-10 10:00:00+00', 27217.0, 3084.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0552, 087, 0523, '2024-03-28 10:00:00+00', 42615.0, 1011.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0046, 041, 0243, '2024-11-16 10:00:00+00', 118442.0, 1740.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0307, 037, 0221, '2025-04-13 10:00:00+00', 144033.0, 4722.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0606, 061, 0368, '2024-12-06 10:00:00+00', 48889.0, 1252.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0638, 071, 0433, '2025-08-03 10:00:00+00', 14509.0, 4704.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0267, 065, 0391, '2024-08-26 10:00:00+00', 13419.0, 3477.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 044, 0261, '2025-06-28 10:00:00+00', 178069.0, 1373.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0209, 012, 0073, '2024-10-12 10:00:00+00', 30110.0, 1778.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0382, 096, 0578, '2024-02-13 10:00:00+00', 110224.0, 1543.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0158, 054, 0324, '2024-09-01 10:00:00+00', 44223.0, 3304.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0619, 043, 0254, '2025-10-01 10:00:00+00', 41540.0, 2412.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0545, 018, 0113, '2025-11-26 10:00:00+00', 185106.0, 3532.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0338, 015, 0092, '2024-08-27 10:00:00+00', 153309.0, 2932.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0150, 039, 0232, '2025-06-04 10:00:00+00', 89231.0, 280.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0387, 038, 0228, '2025-11-24 10:00:00+00', 146566.0, 1060.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0180, 089, 0540, '2024-11-24 10:00:00+00', 94590.0, 4210.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0542, 060, 0358, '2025-03-05 10:00:00+00', 59699.0, 2510.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0278, 017, 0102, '2024-08-22 10:00:00+00', 67259.0, 1598.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0399, 031, 0186, '2025-11-01 10:00:00+00', 174026.0, 4555.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0609, 068, 0413, '2025-07-02 10:00:00+00', 133042.0, 1245.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0010, 087, 0526, '2024-04-17 10:00:00+00', 156126.0, 1235.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0388, 096, 0582, '2024-09-21 10:00:00+00', 135762.0, 633.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0380, 043, 0256, '2025-03-15 10:00:00+00', 56711.0, 3626.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0469, 031, 0188, '2024-08-05 10:00:00+00', 166048.0, 3099.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0515, 049, 0294, '2024-12-22 10:00:00+00', 127322.0, 3704.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0235, 052, 0313, '2025-11-12 10:00:00+00', 11680.0, 2703.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0321, 015, 0093, '2025-04-09 10:00:00+00', 132228.0, 828.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0246, 016, 0096, '2025-12-03 10:00:00+00', 57490.0, 4912.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0087, 049, 0293, '2024-04-09 10:00:00+00', 110828.0, 4237.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0435, 086, 0521, '2025-02-18 10:00:00+00', 107550.0, 4129.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0528, 091, 0546, '2025-01-13 10:00:00+00', 33577.0, 3521.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0632, 032, 0195, '2024-02-19 10:00:00+00', 131340.0, 3681.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0548, 059, 0354, '2025-01-05 10:00:00+00', 111992.0, 4526.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0624, 007, 0044, '2024-09-10 10:00:00+00', 62112.0, 3875.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0537, 039, 0231, '2025-04-18 10:00:00+00', 9585.0, 815.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0137, 087, 0527, '2024-08-22 10:00:00+00', 154065.0, 617.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0508, 065, 0389, '2025-06-17 10:00:00+00', 23535.0, 3257.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0347, 043, 0256, '2025-01-24 10:00:00+00', 178855.0, 1165.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0307, 082, 0495, '2024-03-03 10:00:00+00', 146644.0, 2368.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0003, 097, 0583, '2024-06-02 10:00:00+00', 148913.0, 1981.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0528, 006, 0037, '2025-04-26 10:00:00+00', 39121.0, 4199.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0365, 001, 0007, '2025-03-19 10:00:00+00', 164741.0, 2891.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0363, 018, 0110, '2025-02-24 10:00:00+00', 153796.0, 3064.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0191, 068, 0412, '2025-08-29 10:00:00+00', 129110.0, 272.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0442, 083, 0504, '2025-12-19 10:00:00+00', 28811.0, 894.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0527, 026, 0158, '2025-05-01 10:00:00+00', 30180.0, 1214.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0008, 026, 0160, '2024-10-26 10:00:00+00', 30773.0, 2052.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0405, 064, 0384, '2024-03-23 10:00:00+00', 187783.0, 3185.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0187, 091, 0550, '2025-08-14 10:00:00+00', 74830.0, 1090.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0450, 027, 0166, '2024-03-07 10:00:00+00', 69455.0, 3097.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0445, 001, 0006, '2024-05-26 10:00:00+00', 44503.0, 1825.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0195, 049, 0292, '2024-08-13 10:00:00+00', 164863.0, 1295.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 057, 0340, '2024-05-02 10:00:00+00', 73069.0, 1513.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0204, 081, 0491, '2024-12-17 10:00:00+00', 106190.0, 1173.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0501, 094, 0564, '2025-05-19 10:00:00+00', 54698.0, 1243.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0410, 085, 0514, '2025-03-21 10:00:00+00', 42258.0, 1276.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0111, 004, 0022, '2024-12-19 10:00:00+00', 138028.0, 1474.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0513, 003, 0014, '2024-07-24 10:00:00+00', 58622.0, 626.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0351, 073, 0440, '2025-01-26 10:00:00+00', 121640.0, 265.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0492, 050, 0297, '2024-10-15 10:00:00+00', 15424.0, 4180.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0440, 043, 0254, '2025-10-07 10:00:00+00', 59839.0, 4388.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0256, 048, 0288, '2025-08-04 10:00:00+00', 94080.0, 2358.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0254, 073, 0440, '2024-12-27 10:00:00+00', 47775.0, 4082.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0106, 085, 0515, '2025-09-10 10:00:00+00', 34304.0, 1745.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0645, 025, 0153, '2024-09-30 10:00:00+00', 9835.0, 1186.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0411, 007, 0040, '2025-12-21 10:00:00+00', 92297.0, 1774.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0437, 003, 0019, '2024-03-12 10:00:00+00', 32651.0, 944.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0390, 069, 0418, '2024-03-19 10:00:00+00', 52985.0, 2710.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0649, 040, 0237, '2025-01-11 10:00:00+00', 47776.0, 2953.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0491, 010, 0063, '2024-01-05 10:00:00+00', 62580.0, 3698.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0053, 052, 0312, '2025-12-02 10:00:00+00', 18516.0, 2405.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0288, 060, 0360, '2024-08-03 10:00:00+00', 46586.0, 2223.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0049, 031, 0187, '2025-08-04 10:00:00+00', 33075.0, 204.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0330, 036, 0218, '2025-06-20 10:00:00+00', 167848.0, 4067.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0622, 017, 0104, '2025-09-09 10:00:00+00', 171663.0, 1714.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0504, 062, 0373, '2024-05-14 10:00:00+00', 14425.0, 2693.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0100, 003, 0014, '2025-02-25 10:00:00+00', 45652.0, 1267.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0370, 062, 0371, '2024-12-04 10:00:00+00', 79181.0, 4532.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0381, 041, 0244, '2024-12-04 10:00:00+00', 66883.0, 1920.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0394, 015, 0090, '2024-03-22 10:00:00+00', 40266.0, 1268.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0617, 020, 0124, '2024-05-18 10:00:00+00', 15067.0, 1760.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0457, 017, 0102, '2024-01-25 10:00:00+00', 195116.0, 4677.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0352, 052, 0309, '2024-04-03 10:00:00+00', 95712.0, 1854.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0158, 008, 0045, '2024-02-02 10:00:00+00', 39213.0, 1770.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0564, 043, 0259, '2025-12-15 10:00:00+00', 167011.0, 3045.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0460, 020, 0121, '2025-07-03 10:00:00+00', 99873.0, 754.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0430, 089, 0537, '2025-11-13 10:00:00+00', 81702.0, 379.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0614, 047, 0281, '2024-05-05 10:00:00+00', 45221.0, 2572.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0580, 010, 0063, '2024-01-18 10:00:00+00', 196713.0, 3456.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0546, 087, 0526, '2024-02-18 10:00:00+00', 143691.0, 1555.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0522, 065, 0394, '2025-03-27 10:00:00+00', 64446.0, 3396.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0622, 047, 0279, '2025-11-28 10:00:00+00', 167994.0, 1707.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0164, 097, 0586, '2024-03-24 10:00:00+00', 108973.0, 272.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0467, 085, 0516, '2024-03-21 10:00:00+00', 56069.0, 2320.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0226, 051, 0304, '2024-11-11 10:00:00+00', 26600.0, 4723.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0176, 038, 0230, '2025-05-10 10:00:00+00', 5926.0, 4570.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0299, 007, 0041, '2025-05-14 10:00:00+00', 127775.0, 2475.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0277, 009, 0053, '2025-04-23 10:00:00+00', 152770.0, 1920.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0119, 001, 0002, '2025-03-18 10:00:00+00', 164422.0, 3223.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 093, 0563, '2025-06-01 10:00:00+00', 175427.0, 1294.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0627, 051, 0302, '2024-03-19 10:00:00+00', 157227.0, 669.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0011, 061, 0365, '2024-10-22 10:00:00+00', 188010.0, 2491.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0263, 003, 0017, '2025-02-13 10:00:00+00', 168120.0, 4978.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0392, 044, 0264, '2025-05-08 10:00:00+00', 191908.0, 4712.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0453, 038, 0226, '2024-10-13 10:00:00+00', 57468.0, 2401.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0596, 067, 0405, '2024-03-08 10:00:00+00', 83880.0, 3854.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0445, 063, 0378, '2024-03-24 10:00:00+00', 41048.0, 4124.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0508, 031, 0186, '2025-11-05 10:00:00+00', 28268.0, 1715.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0194, 097, 0584, '2025-11-19 10:00:00+00', 173899.0, 1677.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0289, 004, 0022, '2025-01-30 10:00:00+00', 136611.0, 1534.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0404, 032, 0193, '2025-07-05 10:00:00+00', 36943.0, 1375.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0437, 042, 0252, '2025-04-29 10:00:00+00', 36836.0, 3497.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0540, 023, 0141, '2025-09-20 10:00:00+00', 70691.0, 1016.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0394, 004, 0022, '2025-03-26 10:00:00+00', 40326.0, 311.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0045, 022, 0136, '2024-01-04 10:00:00+00', 178675.0, 884.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0147, 003, 0014, '2025-08-02 10:00:00+00', 32850.0, 1071.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0347, 015, 0088, '2025-12-25 10:00:00+00', 173337.0, 1340.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0577, 075, 0455, '2025-01-11 10:00:00+00', 61872.0, 2718.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0491, 026, 0159, '2024-02-04 10:00:00+00', 58221.0, 657.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0274, 092, 0557, '2024-03-30 10:00:00+00', 195436.0, 373.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0106, 093, 0558, '2025-11-19 10:00:00+00', 36197.0, 1040.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0426, 024, 0146, '2024-06-18 10:00:00+00', 77354.0, 2037.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0233, 072, 0438, '2025-05-06 10:00:00+00', 112649.0, 1407.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0294, 039, 0232, '2024-05-02 10:00:00+00', 194955.0, 1120.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0174, 018, 0113, '2024-07-03 10:00:00+00', 150792.0, 1033.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0366, 013, 0079, '2025-12-19 10:00:00+00', 186443.0, 1169.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0087, 008, 0045, '2024-11-13 10:00:00+00', 111653.0, 1437.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0439, 090, 0544, '2025-12-02 10:00:00+00', 160881.0, 1685.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0436, 025, 0154, '2024-03-05 10:00:00+00', 145338.0, 2551.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0107, 047, 0278, '2025-09-10 10:00:00+00', 125740.0, 3223.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0079, 001, 0003, '2024-03-26 10:00:00+00', 168955.0, 1400.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0152, 066, 0400, '2024-03-15 10:00:00+00', 189837.0, 4119.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0116, 098, 0592, '2024-05-05 10:00:00+00', 195978.0, 2481.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0093, 055, 0331, '2024-02-27 10:00:00+00', 122769.0, 1689.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0362, 054, 0327, '2024-11-04 10:00:00+00', 174809.0, 3672.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0424, 057, 0342, '2025-06-14 10:00:00+00', 141101.0, 2214.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0429, 093, 0563, '2025-06-24 10:00:00+00', 172098.0, 4613.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0505, 091, 0546, '2025-05-15 10:00:00+00', 77509.0, 2085.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 099, 0595, '2024-06-09 10:00:00+00', 178012.0, 4516.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0225, 015, 0090, '2024-11-07 10:00:00+00', 135851.0, 3163.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0209, 003, 0018, '2024-04-07 10:00:00+00', 31634.0, 4774.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0137, 018, 0113, '2025-09-03 10:00:00+00', 149253.0, 3061.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0143, 051, 0302, '2024-01-23 10:00:00+00', 145037.0, 1380.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 042, 0249, '2025-10-14 10:00:00+00', 76004.0, 2039.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0142, 020, 0121, '2025-07-22 10:00:00+00', 115624.0, 3292.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0027, 072, 0435, '2024-10-01 10:00:00+00', 157768.0, 643.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0109, 099, 0596, '2024-11-20 10:00:00+00', 141932.0, 4106.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0162, 005, 0031, '2024-07-02 10:00:00+00', 168390.0, 3192.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0081, 042, 0251, '2025-11-21 10:00:00+00', 91105.0, 302.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0427, 025, 0154, '2024-03-26 10:00:00+00', 161625.0, 4048.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0144, 090, 0541, '2024-06-14 10:00:00+00', 123935.0, 4051.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0346, 075, 0455, '2024-09-15 10:00:00+00', 49097.0, 2549.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0160, 010, 0062, '2025-07-26 10:00:00+00', 184626.0, 1621.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0165, 002, 0012, '2024-10-26 10:00:00+00', 176842.0, 3670.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 094, 0568, '2025-09-22 10:00:00+00', 97671.0, 4886.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0314, 039, 0233, '2024-09-03 10:00:00+00', 58393.0, 1484.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0095, 089, 0535, '2025-04-07 10:00:00+00', 182781.0, 1225.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0217, 068, 0411, '2025-01-03 10:00:00+00', 80914.0, 1993.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0189, 095, 0573, '2025-10-25 10:00:00+00', 123445.0, 832.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0480, 081, 0489, '2024-08-15 10:00:00+00', 101139.0, 3518.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0169, 009, 0056, '2025-11-28 10:00:00+00', 134735.0, 3675.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0277, 018, 0112, '2024-04-20 10:00:00+00', 150401.0, 837.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0618, 057, 0344, '2024-11-03 10:00:00+00', 23197.0, 2162.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0167, 092, 0555, '2025-11-30 10:00:00+00', 91050.0, 735.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0612, 002, 0012, '2024-03-14 10:00:00+00', 74214.0, 1737.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0207, 006, 0034, '2025-04-21 10:00:00+00', 163530.0, 2405.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0584, 096, 0579, '2025-03-05 10:00:00+00', 154381.0, 4818.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0047, 008, 0050, '2025-06-04 10:00:00+00', 144024.0, 963.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0009, 061, 0366, '2025-07-06 10:00:00+00', 34624.0, 3461.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0200, 054, 0323, '2024-10-25 10:00:00+00', 175263.0, 3115.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0100, 057, 0340, '2025-02-12 10:00:00+00', 43284.0, 4325.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0515, 025, 0154, '2024-02-19 10:00:00+00', 123191.0, 3330.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0601, 007, 0039, '2024-10-12 10:00:00+00', 56644.0, 1520.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0475, 013, 0081, '2024-02-26 10:00:00+00', 81022.0, 2097.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0145, 027, 0165, '2024-08-17 10:00:00+00', 116228.0, 4429.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0624, 089, 0536, '2025-08-18 10:00:00+00', 57754.0, 3865.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0348, 050, 0298, '2025-02-21 10:00:00+00', 195122.0, 3729.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0397, 041, 0245, '2025-03-20 10:00:00+00', 65199.0, 814.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0581, 084, 0510, '2025-01-01 10:00:00+00', 14323.0, 322.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0317, 093, 0561, '2025-07-25 10:00:00+00', 125138.0, 4287.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 053, 0322, '2025-02-22 10:00:00+00', 96224.0, 2621.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0070, 048, 0287, '2025-05-28 10:00:00+00', 161660.0, 3176.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0092, 012, 0073, '2024-06-07 10:00:00+00', 34037.0, 3974.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0485, 044, 0263, '2025-12-15 10:00:00+00', 14134.0, 1350.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0583, 083, 0500, '2025-10-29 10:00:00+00', 54078.0, 3177.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0411, 069, 0419, '2024-03-30 10:00:00+00', 89924.0, 3811.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0525, 053, 0322, '2024-07-22 10:00:00+00', 133820.0, 883.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0424, 086, 0519, '2025-07-08 10:00:00+00', 146211.0, 2353.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0044, 010, 0059, '2025-10-04 10:00:00+00', 164677.0, 4794.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0159, 017, 0108, '2025-04-26 10:00:00+00', 123311.0, 3278.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0584, 068, 0409, '2024-12-15 10:00:00+00', 154841.0, 2027.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0474, 016, 0096, '2024-06-20 10:00:00+00', 182376.0, 4016.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0548, 079, 0477, '2024-06-30 10:00:00+00', 109778.0, 903.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0111, 067, 0407, '2024-05-02 10:00:00+00', 143058.0, 1834.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0337, 011, 0067, '2024-05-31 10:00:00+00', 58398.0, 3005.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0498, 036, 0218, '2025-03-25 10:00:00+00', 112830.0, 1136.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 007, 0040, '2024-01-29 10:00:00+00', 102374.0, 1475.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0150, 036, 0219, '2025-06-29 10:00:00+00', 89993.0, 4854.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0616, 065, 0390, '2024-04-10 10:00:00+00', 182206.0, 3161.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0485, 036, 0219, '2024-11-11 10:00:00+00', 7778.0, 1932.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0434, 046, 0277, '2025-07-03 10:00:00+00', 16298.0, 1642.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0146, 012, 0071, '2025-04-03 10:00:00+00', 29065.0, 3518.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0306, 077, 0463, '2024-05-27 10:00:00+00', 70005.0, 4498.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0266, 031, 0189, '2025-07-22 10:00:00+00', 111626.0, 957.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0351, 051, 0305, '2025-08-11 10:00:00+00', 114553.0, 1826.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0430, 082, 0494, '2024-06-11 10:00:00+00', 81237.0, 4586.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0165, 074, 0448, '2024-02-25 10:00:00+00', 176159.0, 4872.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0011, 095, 0575, '2025-01-10 10:00:00+00', 194201.0, 1826.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0593, 024, 0149, '2025-07-22 10:00:00+00', 150854.0, 2792.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0155, 078, 0470, '2025-08-04 10:00:00+00', 59355.0, 4291.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0117, 069, 0417, '2025-12-29 10:00:00+00', 170798.0, 4465.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0004, 077, 0462, '2025-07-25 10:00:00+00', 99973.0, 3880.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0593, 016, 0100, '2024-10-04 10:00:00+00', 146147.0, 1990.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 071, 0431, '2025-10-20 10:00:00+00', 56127.0, 1560.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0387, 037, 0222, '2024-01-13 10:00:00+00', 146066.0, 1918.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0591, 003, 0015, '2024-08-18 10:00:00+00', 123147.0, 3180.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0310, 052, 0315, '2024-03-13 10:00:00+00', 201127.0, 1221.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0512, 077, 0467, '2025-05-02 10:00:00+00', 197020.0, 3561.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0361, 092, 0556, '2024-11-13 10:00:00+00', 120151.0, 4485.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0117, 030, 0181, '2024-02-21 10:00:00+00', 174010.0, 3709.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0182, 094, 0567, '2024-09-05 10:00:00+00', 95177.0, 1532.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0447, 065, 0391, '2024-02-12 10:00:00+00', 41222.0, 3783.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0291, 017, 0102, '2025-07-12 10:00:00+00', 36040.0, 1050.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0017, 070, 0422, '2025-04-09 10:00:00+00', 78349.0, 4266.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0639, 093, 0558, '2024-11-11 10:00:00+00', 104041.0, 3838.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0596, 006, 0034, '2024-10-30 10:00:00+00', 86079.0, 3645.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0229, 077, 0466, '2025-06-13 10:00:00+00', 85858.0, 3321.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0201, 080, 0481, '2025-07-02 10:00:00+00', 61289.0, 3072.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0423, 067, 0406, '2025-09-02 10:00:00+00', 7931.0, 3269.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0520, 049, 0291, '2024-02-06 10:00:00+00', 93800.0, 2366.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0425, 042, 0248, '2024-10-02 10:00:00+00', 14521.0, 3596.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0016, 004, 0027, '2025-03-08 10:00:00+00', 96796.0, 3267.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0615, 054, 0326, '2024-01-24 10:00:00+00', 33480.0, 1596.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0441, 042, 0248, '2025-04-18 10:00:00+00', 67259.0, 3406.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0632, 067, 0403, '2024-02-28 10:00:00+00', 132066.0, 4933.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0132, 066, 0400, '2024-05-11 10:00:00+00', 157670.0, 3502.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0530, 027, 0163, '2025-11-21 10:00:00+00', 39825.0, 2092.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0130, 086, 0517, '2024-12-23 10:00:00+00', 46282.0, 4926.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0643, 045, 0267, '2025-11-14 10:00:00+00', 99867.0, 1502.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0209, 016, 0096, '2025-08-07 10:00:00+00', 27225.0, 410.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0012, 026, 0157, '2025-08-28 10:00:00+00', 59760.0, 4653.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0586, 065, 0392, '2024-01-31 10:00:00+00', 137095.0, 1269.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0650, 061, 0367, '2025-03-03 10:00:00+00', 154758.0, 2163.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0228, 051, 0305, '2024-06-30 10:00:00+00', 16844.0, 4586.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0388, 045, 0267, '2024-05-31 10:00:00+00', 132229.0, 2452.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0148, 004, 0024, '2024-09-16 10:00:00+00', 46142.0, 1047.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0471, 021, 0126, '2025-12-14 10:00:00+00', 50508.0, 1361.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0269, 030, 0185, '2024-09-17 10:00:00+00', 19256.0, 833.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0371, 036, 0213, '2024-10-08 10:00:00+00', 189549.0, 1024.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0023, 070, 0424, '2024-04-09 10:00:00+00', 33004.0, 4185.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0079, 036, 0216, '2024-01-18 10:00:00+00', 173399.0, 3274.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0649, 077, 0462, '2024-11-19 10:00:00+00', 46782.0, 1672.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0011, 030, 0183, '2024-09-08 10:00:00+00', 193712.0, 457.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0352, 059, 0356, '2024-08-16 10:00:00+00', 95871.0, 4676.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0163, 089, 0535, '2025-08-16 10:00:00+00', 153528.0, 1196.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0621, 005, 0031, '2024-10-16 10:00:00+00', 163561.0, 388.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0525, 026, 0157, '2025-08-04 10:00:00+00', 131241.0, 3189.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0223, 005, 0031, '2025-11-16 10:00:00+00', 89135.0, 1335.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0086, 021, 0130, '2024-10-31 10:00:00+00', 175485.0, 2441.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0205, 016, 0095, '2025-05-21 10:00:00+00', 132622.0, 4717.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0302, 079, 0479, '2024-10-30 10:00:00+00', 13167.0, 3772.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0410, 033, 0198, '2024-10-12 10:00:00+00', 39985.0, 1616.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0288, 067, 0403, '2025-08-17 10:00:00+00', 41422.0, 4981.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0320, 028, 0170, '2024-04-11 10:00:00+00', 178788.0, 4196.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0457, 072, 0434, '2025-05-07 10:00:00+00', 203660.0, 2425.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0638, 018, 0111, '2025-03-19 10:00:00+00', 23240.0, 3337.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0205, 096, 0581, '2025-03-24 10:00:00+00', 132694.0, 3263.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0066, 077, 0461, '2024-02-08 10:00:00+00', 108327.0, 476.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0260, 100, 0601, '2025-06-08 10:00:00+00', 63989.0, 2604.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0544, 060, 0361, '2025-11-26 10:00:00+00', 102732.0, 445.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0185, 055, 0331, '2025-03-28 10:00:00+00', 32431.0, 1723.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0252, 012, 0075, '2025-04-04 10:00:00+00', 174828.0, 3244.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0149, 053, 0322, '2025-02-15 10:00:00+00', 128466.0, 278.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0012, 056, 0337, '2024-06-06 10:00:00+00', 62807.0, 4012.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0330, 040, 0239, '2024-07-06 10:00:00+00', 172375.0, 742.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0291, 036, 0218, '2025-05-05 10:00:00+00', 43243.0, 1981.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0575, 048, 0285, '2024-05-19 10:00:00+00', 175508.0, 812.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 074, 0446, '2025-10-09 10:00:00+00', 77758.0, 2822.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0202, 009, 0051, '2025-10-19 10:00:00+00', 93924.0, 4284.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0282, 071, 0432, '2025-11-09 10:00:00+00', 17293.0, 1216.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0176, 056, 0335, '2025-10-07 10:00:00+00', 14864.0, 3336.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0591, 004, 0022, '2024-02-07 10:00:00+00', 121751.0, 346.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0590, 001, 0005, '2025-09-23 10:00:00+00', 174323.0, 2529.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0413, 007, 0038, '2024-02-08 10:00:00+00', 161764.0, 4521.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0346, 003, 0017, '2025-10-22 10:00:00+00', 50018.0, 4049.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0426, 052, 0309, '2024-06-15 10:00:00+00', 81835.0, 2798.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0410, 013, 0082, '2025-06-06 10:00:00+00', 45004.0, 2765.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0628, 008, 0049, '2024-03-07 10:00:00+00', 29226.0, 2644.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 083, 0506, '2025-03-24 10:00:00+00', 95433.0, 3263.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0106, 005, 0030, '2025-07-12 10:00:00+00', 35006.0, 591.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0143, 017, 0108, '2024-10-08 10:00:00+00', 142783.0, 3769.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0175, 015, 0091, '2024-12-24 10:00:00+00', 22855.0, 3221.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0006, 009, 0054, '2025-12-21 10:00:00+00', 30387.0, 552.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0050, 052, 0312, '2024-01-06 10:00:00+00', 43368.0, 2360.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0628, 065, 0389, '2025-08-11 10:00:00+00', 27204.0, 1595.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0598, 078, 0472, '2025-04-24 10:00:00+00', 142484.0, 1234.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0152, 099, 0599, '2025-02-25 10:00:00+00', 189290.0, 3860.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0126, 089, 0535, '2025-04-13 10:00:00+00', 132971.0, 2170.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0490, 083, 0502, '2025-01-22 10:00:00+00', 38525.0, 2837.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0495, 039, 0232, '2024-11-16 10:00:00+00', 88181.0, 2361.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0085, 060, 0362, '2024-03-25 10:00:00+00', 179930.0, 2185.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0211, 013, 0080, '2024-05-18 10:00:00+00', 50052.0, 4251.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0218, 003, 0014, '2024-02-23 10:00:00+00', 180189.0, 4035.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 083, 0500, '2025-10-15 10:00:00+00', 48892.0, 2988.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0605, 090, 0541, '2025-03-18 10:00:00+00', 113193.0, 2767.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0465, 026, 0158, '2024-06-06 10:00:00+00', 174133.0, 1065.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0225, 062, 0373, '2025-09-05 10:00:00+00', 138315.0, 3906.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0526, 035, 0208, '2025-04-22 10:00:00+00', 197267.0, 1739.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0285, 072, 0434, '2025-05-15 10:00:00+00', 78025.0, 2716.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0105, 025, 0151, '2024-09-25 10:00:00+00', 52233.0, 1077.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0113, 041, 0247, '2024-07-05 10:00:00+00', 148495.0, 3975.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0274, 005, 0030, '2024-07-02 10:00:00+00', 201222.0, 4549.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0361, 046, 0272, '2025-10-12 10:00:00+00', 115112.0, 4708.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0363, 073, 0442, '2025-08-29 10:00:00+00', 157186.0, 1433.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0515, 073, 0442, '2025-05-11 10:00:00+00', 131124.0, 2933.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0452, 047, 0280, '2024-02-27 10:00:00+00', 194745.0, 1001.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0392, 071, 0433, '2025-07-14 10:00:00+00', 185184.0, 2608.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0413, 030, 0181, '2025-01-18 10:00:00+00', 162756.0, 2460.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0623, 083, 0506, '2025-09-22 10:00:00+00', 106257.0, 3751.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0052, 043, 0255, '2025-12-20 10:00:00+00', 121681.0, 1998.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0055, 006, 0037, '2025-01-27 10:00:00+00', 161185.0, 2380.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0068, 090, 0545, '2025-01-12 10:00:00+00', 55701.0, 2456.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0636, 069, 0415, '2025-03-09 10:00:00+00', 100327.0, 3418.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0226, 046, 0275, '2025-10-03 10:00:00+00', 30313.0, 1885.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0209, 059, 0356, '2025-04-14 10:00:00+00', 30415.0, 2559.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0004, 016, 0097, '2025-08-08 10:00:00+00', 100946.0, 4322.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0638, 081, 0489, '2024-03-12 10:00:00+00', 18293.0, 2154.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0323, 012, 0072, '2025-11-27 10:00:00+00', 21640.0, 1734.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0467, 024, 0146, '2025-11-16 10:00:00+00', 47675.0, 4087.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0343, 004, 0022, '2025-08-30 10:00:00+00', 149527.0, 2361.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0175, 002, 0010, '2025-05-02 10:00:00+00', 29456.0, 3084.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0598, 001, 0002, '2024-11-29 10:00:00+00', 148520.0, 2227.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0113, 008, 0047, '2025-02-18 10:00:00+00', 148508.0, 4847.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0298, 039, 0234, '2025-11-03 10:00:00+00', 146494.0, 4321.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0151, 016, 0097, '2025-09-15 10:00:00+00', 30548.0, 2695.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0344, 077, 0464, '2024-08-03 10:00:00+00', 146400.0, 3073.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0264, 082, 0499, '2025-08-20 10:00:00+00', 85391.0, 3184.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0014, 060, 0362, '2025-07-15 10:00:00+00', 151638.0, 2933.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0611, 082, 0496, '2025-07-14 10:00:00+00', 125791.0, 2411.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0532, 004, 0022, '2024-03-18 10:00:00+00', 48888.0, 3561.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0146, 061, 0366, '2025-08-15 10:00:00+00', 32734.0, 453.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0592, 073, 0442, '2024-11-25 10:00:00+00', 199684.0, 1890.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0092, 033, 0199, '2024-07-16 10:00:00+00', 37291.0, 1084.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0642, 093, 0558, '2025-09-22 10:00:00+00', 52750.0, 4516.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0272, 060, 0358, '2025-03-30 10:00:00+00', 190188.0, 3403.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0428, 048, 0283, '2025-10-19 10:00:00+00', 84645.0, 1761.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0594, 088, 0533, '2025-08-07 10:00:00+00', 130397.0, 1207.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 096, 0581, '2025-03-24 10:00:00+00', 99129.0, 2562.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0009, 084, 0511, '2025-02-14 10:00:00+00', 32408.0, 4020.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0154, 089, 0536, '2024-04-10 10:00:00+00', 46392.0, 4772.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0167, 052, 0311, '2025-06-10 10:00:00+00', 97282.0, 2561.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0302, 003, 0016, '2024-09-02 10:00:00+00', 12480.0, 535.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0290, 021, 0127, '2024-08-21 10:00:00+00', 166134.0, 4200.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0006, 073, 0441, '2024-03-21 10:00:00+00', 31904.0, 205.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0258, 023, 0142, '2025-10-22 10:00:00+00', 33816.0, 2520.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0575, 026, 0159, '2024-07-11 10:00:00+00', 166958.0, 2417.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0202, 073, 0443, '2025-02-06 10:00:00+00', 95420.0, 861.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0225, 006, 0033, '2024-12-31 10:00:00+00', 139750.0, 3105.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0396, 071, 0433, '2024-06-28 10:00:00+00', 146973.0, 1003.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0310, 053, 0319, '2025-06-07 10:00:00+00', 195740.0, 4819.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0331, 098, 0593, '2025-11-02 10:00:00+00', 186234.0, 1834.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0139, 071, 0427, '2025-03-09 10:00:00+00', 186389.0, 1834.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0313, 015, 0088, '2025-12-21 10:00:00+00', 22603.0, 4842.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0473, 093, 0559, '2025-11-06 10:00:00+00', 29827.0, 3279.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0099, 023, 0142, '2025-07-14 10:00:00+00', 149796.0, 3820.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0321, 085, 0516, '2025-02-11 10:00:00+00', 136784.0, 4036.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0438, 079, 0478, '2024-04-21 10:00:00+00', 58677.0, 3560.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0029, 095, 0573, '2025-08-14 10:00:00+00', 49264.0, 3648.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0144, 052, 0310, '2024-12-04 10:00:00+00', 123003.0, 4954.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0383, 021, 0131, '2024-01-16 10:00:00+00', 115636.0, 4833.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0055, 067, 0403, '2025-11-28 10:00:00+00', 153824.0, 3500.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0007, 079, 0474, '2024-08-28 10:00:00+00', 158374.0, 3970.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0087, 009, 0057, '2025-01-24 10:00:00+00', 106175.0, 1076.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0609, 016, 0100, '2025-04-26 10:00:00+00', 129990.0, 4832.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0340, 010, 0063, '2024-03-11 10:00:00+00', 169067.0, 4989.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0524, 009, 0055, '2024-04-22 10:00:00+00', 167206.0, 4429.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0576, 084, 0508, '2024-02-02 10:00:00+00', 119029.0, 2031.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0159, 052, 0309, '2025-07-20 10:00:00+00', 123642.0, 252.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0639, 034, 0206, '2024-08-20 10:00:00+00', 104287.0, 750.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0157, 020, 0124, '2025-12-10 10:00:00+00', 182857.0, 993.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0210, 017, 0107, '2024-11-18 10:00:00+00', 148241.0, 401.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0455, 066, 0401, '2025-02-28 10:00:00+00', 57307.0, 1197.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0415, 082, 0496, '2024-09-07 10:00:00+00', 153481.0, 2124.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0267, 075, 0450, '2024-03-21 10:00:00+00', 12762.0, 3741.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0023, 031, 0190, '2025-01-17 10:00:00+00', 34120.0, 2171.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0524, 093, 0560, '2024-06-19 10:00:00+00', 167129.0, 4100.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0297, 050, 0297, '2025-10-20 10:00:00+00', 135520.0, 4238.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0282, 066, 0401, '2024-09-01 10:00:00+00', 21661.0, 1079.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0427, 072, 0436, '2025-05-28 10:00:00+00', 161064.0, 429.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0469, 020, 0124, '2025-08-13 10:00:00+00', 168101.0, 3390.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0595, 052, 0311, '2024-05-08 10:00:00+00', 15847.0, 3841.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0364, 023, 0143, '2025-10-23 10:00:00+00', 88858.0, 3954.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0010, 027, 0163, '2024-12-07 10:00:00+00', 159440.0, 4301.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0216, 060, 0358, '2024-03-17 10:00:00+00', 52451.0, 3399.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0065, 030, 0179, '2025-10-27 10:00:00+00', 44536.0, 3082.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0577, 058, 0348, '2024-02-28 10:00:00+00', 66728.0, 1347.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0311, 067, 0404, '2024-12-03 10:00:00+00', 182314.0, 4162.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0484, 030, 0185, '2024-11-09 10:00:00+00', 16831.0, 4353.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0539, 045, 0266, '2024-02-26 10:00:00+00', 100353.0, 2854.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0595, 059, 0357, '2024-12-07 10:00:00+00', 24865.0, 3507.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0047, 005, 0031, '2024-03-11 10:00:00+00', 141477.0, 2098.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0109, 085, 0512, '2024-01-31 10:00:00+00', 148529.0, 2851.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0243, 017, 0108, '2024-01-28 10:00:00+00', 22733.0, 3346.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0066, 011, 0064, '2024-08-04 10:00:00+00', 109690.0, 1137.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0075, 075, 0453, '2025-05-24 10:00:00+00', 153504.0, 441.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0329, 018, 0111, '2024-06-23 10:00:00+00', 175040.0, 3293.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0588, 094, 0570, '2024-09-11 10:00:00+00', 67588.0, 1803.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0503, 074, 0449, '2024-11-27 10:00:00+00', 23341.0, 2047.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0166, 074, 0445, '2025-07-27 10:00:00+00', 156401.0, 1775.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0597, 004, 0025, '2025-09-28 10:00:00+00', 127515.0, 1867.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0144, 001, 0006, '2025-11-18 10:00:00+00', 124919.0, 3542.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0560, 012, 0074, '2024-07-26 10:00:00+00', 49294.0, 1718.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0541, 084, 0509, '2025-01-22 10:00:00+00', 112919.0, 1899.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0486, 085, 0513, '2025-12-29 10:00:00+00', 125352.0, 3120.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0573, 023, 0142, '2025-07-29 10:00:00+00', 13824.0, 3795.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0641, 064, 0386, '2025-02-17 10:00:00+00', 30436.0, 4862.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0131, 088, 0530, '2024-09-24 10:00:00+00', 94244.0, 1026.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0511, 040, 0237, '2025-04-19 10:00:00+00', 104872.0, 4628.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0024, 038, 0230, '2024-05-12 10:00:00+00', 155759.0, 2259.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0367, 012, 0070, '2025-09-20 10:00:00+00', 90891.0, 2559.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0548, 098, 0590, '2025-04-22 10:00:00+00', 111946.0, 4441.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0513, 053, 0320, '2025-08-15 10:00:00+00', 61288.0, 664.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0114, 099, 0597, '2024-06-06 10:00:00+00', 30419.0, 2354.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0031, 006, 0034, '2025-11-12 10:00:00+00', 174386.0, 3652.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0206, 057, 0343, '2024-05-02 10:00:00+00', 45590.0, 1341.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0561, 056, 0338, '2025-07-10 10:00:00+00', 124001.0, 2130.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0075, 096, 0578, '2024-03-27 10:00:00+00', 157366.0, 489.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0073, 071, 0427, '2025-07-18 10:00:00+00', 73741.0, 860.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0491, 022, 0133, '2025-01-29 10:00:00+00', 58659.0, 541.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0037, 084, 0509, '2024-03-24 10:00:00+00', 86795.0, 2045.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0359, 073, 0442, '2024-05-21 10:00:00+00', 45129.0, 2685.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0022, 009, 0057, '2024-05-15 10:00:00+00', 29422.0, 1807.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0623, 065, 0389, '2024-10-07 10:00:00+00', 98056.0, 4726.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0054, 066, 0397, '2025-06-06 10:00:00+00', 54264.0, 1225.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0438, 093, 0563, '2024-08-09 10:00:00+00', 54045.0, 1146.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0121, 063, 0377, '2025-03-30 10:00:00+00', 170364.0, 1786.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0448, 010, 0060, '2025-09-24 10:00:00+00', 185614.0, 2100.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0603, 002, 0011, '2025-06-09 10:00:00+00', 193854.0, 3583.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0550, 096, 0582, '2024-09-05 10:00:00+00', 27388.0, 322.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0256, 010, 0059, '2024-03-28 10:00:00+00', 93451.0, 664.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0450, 030, 0185, '2024-12-15 10:00:00+00', 71794.0, 558.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0359, 042, 0251, '2025-04-15 10:00:00+00', 42095.0, 1262.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0408, 081, 0491, '2025-08-20 10:00:00+00', 132084.0, 829.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0257, 092, 0557, '2025-06-06 10:00:00+00', 80075.0, 4254.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0366, 038, 0226, '2025-06-22 10:00:00+00', 188242.0, 2679.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0565, 050, 0300, '2024-01-10 10:00:00+00', 83453.0, 4515.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0327, 092, 0555, '2026-01-01 10:00:00+00', 147183.0, 1055.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0355, 070, 0421, '2025-08-09 10:00:00+00', 35642.0, 2491.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0209, 023, 0141, '2025-12-15 10:00:00+00', 34232.0, 2088.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0567, 036, 0216, '2025-10-26 10:00:00+00', 12012.0, 3250.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0146, 006, 0037, '2025-11-26 10:00:00+00', 28429.0, 3806.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0465, 019, 0117, '2024-05-13 10:00:00+00', 166216.0, 4287.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0277, 048, 0285, '2025-07-05 10:00:00+00', 158328.0, 3347.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0087, 010, 0062, '2025-02-23 10:00:00+00', 106321.0, 3345.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0020, 065, 0392, '2025-12-02 10:00:00+00', 75907.0, 3837.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0230, 035, 0211, '2025-04-26 10:00:00+00', 43686.0, 1710.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0442, 091, 0546, '2024-12-24 10:00:00+00', 26431.0, 2699.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0555, 059, 0357, '2025-07-06 10:00:00+00', 156424.0, 2954.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0606, 037, 0222, '2024-07-11 10:00:00+00', 44793.0, 2993.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0637, 074, 0445, '2025-07-26 10:00:00+00', 61124.0, 667.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0567, 066, 0398, '2024-04-11 10:00:00+00', 14710.0, 4580.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0435, 097, 0587, '2024-09-05 10:00:00+00', 114626.0, 4450.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0167, 065, 0391, '2024-05-09 10:00:00+00', 96962.0, 2151.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0016, 048, 0288, '2025-09-17 10:00:00+00', 98779.0, 900.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0556, 051, 0303, '2024-03-12 10:00:00+00', 101836.0, 4878.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0040, 047, 0281, '2025-08-11 10:00:00+00', 187343.0, 2401.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0257, 002, 0013, '2024-04-19 10:00:00+00', 78739.0, 2714.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0329, 046, 0271, '2024-05-14 10:00:00+00', 170605.0, 3835.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0018, 075, 0451, '2024-11-25 10:00:00+00', 150120.0, 4021.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0368, 081, 0492, '2024-10-26 10:00:00+00', 195904.0, 1984.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0060, 099, 0594, '2025-07-31 10:00:00+00', 126247.0, 2464.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0565, 053, 0322, '2025-12-16 10:00:00+00', 80501.0, 3808.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0265, 048, 0283, '2025-10-12 10:00:00+00', 99097.0, 4254.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0233, 030, 0179, '2024-07-18 10:00:00+00', 108741.0, 606.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0118, 007, 0040, '2025-11-03 10:00:00+00', 142053.0, 4351.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0594, 054, 0325, '2024-12-02 10:00:00+00', 125460.0, 4733.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0234, 010, 0063, '2024-11-19 10:00:00+00', 178950.0, 2308.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0362, 092, 0554, '2025-11-30 10:00:00+00', 167444.0, 2122.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0112, 013, 0080, '2024-02-14 10:00:00+00', 96266.0, 3835.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0524, 013, 0080, '2025-05-15 10:00:00+00', 167729.0, 1871.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0585, 063, 0381, '2024-11-13 10:00:00+00', 192006.0, 784.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0437, 049, 0290, '2025-09-30 10:00:00+00', 31725.0, 402.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0622, 061, 0369, '2025-12-09 10:00:00+00', 170092.0, 3543.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0384, 080, 0482, '2024-03-15 10:00:00+00', 179823.0, 455.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0378, 008, 0046, '2025-03-02 10:00:00+00', 143566.0, 1429.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0027, 018, 0109, '2025-06-27 10:00:00+00', 161657.0, 1932.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0524, 086, 0521, '2024-05-12 10:00:00+00', 173374.0, 3018.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0388, 099, 0597, '2024-05-03 10:00:00+00', 131916.0, 1429.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0081, 013, 0080, '2024-01-11 10:00:00+00', 93522.0, 4831.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0589, 093, 0562, '2024-04-04 10:00:00+00', 70190.0, 4615.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0125, 090, 0541, '2024-03-27 10:00:00+00', 143167.0, 4069.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0538, 088, 0533, '2024-06-17 10:00:00+00', 193030.0, 2796.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0200, 098, 0590, '2025-02-09 10:00:00+00', 173664.0, 2199.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0249, 062, 0371, '2025-11-09 10:00:00+00', 155328.0, 3934.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0119, 041, 0247, '2024-08-29 10:00:00+00', 166021.0, 3558.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0082, 060, 0361, '2024-07-30 10:00:00+00', 192256.0, 4342.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0371, 082, 0496, '2024-09-20 10:00:00+00', 193062.0, 2087.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0429, 039, 0236, '2024-05-31 10:00:00+00', 173282.0, 1226.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0251, 069, 0418, '2025-03-03 10:00:00+00', 168083.0, 1331.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0267, 049, 0294, '2024-08-25 10:00:00+00', 16340.0, 2771.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0084, 069, 0419, '2024-08-05 10:00:00+00', 96333.0, 4337.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0590, 084, 0507, '2024-09-01 10:00:00+00', 170003.0, 1673.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0016, 028, 0171, '2025-02-03 10:00:00+00', 96263.0, 3629.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0568, 080, 0482, '2025-11-12 10:00:00+00', 192694.0, 1235.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0442, 004, 0025, '2024-12-08 10:00:00+00', 28310.0, 798.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0528, 090, 0543, '2025-05-30 10:00:00+00', 37893.0, 3659.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0131, 068, 0412, '2024-11-25 10:00:00+00', 98482.0, 2177.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0301, 020, 0122, '2025-02-09 10:00:00+00', 116277.0, 2957.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0624, 018, 0111, '2025-08-02 10:00:00+00', 52902.0, 804.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0364, 076, 0460, '2025-02-05 10:00:00+00', 87891.0, 3884.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0447, 050, 0297, '2024-09-14 10:00:00+00', 44369.0, 1302.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0188, 100, 0604, '2024-05-30 10:00:00+00', 13680.0, 886.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0008, 063, 0379, '2024-03-19 10:00:00+00', 34105.0, 3307.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0450, 030, 0181, '2024-11-05 10:00:00+00', 75498.0, 2488.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0238, 051, 0305, '2025-04-20 10:00:00+00', 79141.0, 2994.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0578, 088, 0531, '2024-07-17 10:00:00+00', 198451.0, 4949.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0437, 049, 0293, '2024-08-30 10:00:00+00', 34669.0, 3346.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0183, 024, 0147, '2024-07-23 10:00:00+00', 155852.0, 1925.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0532, 048, 0285, '2025-12-13 10:00:00+00', 55888.0, 2775.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0356, 049, 0292, '2024-06-13 10:00:00+00', 15792.0, 1171.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0281, 082, 0499, '2025-04-02 10:00:00+00', 81429.0, 2032.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0296, 045, 0266, '2024-02-05 10:00:00+00', 17983.0, 1069.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0286, 024, 0145, '2024-04-23 10:00:00+00', 111633.0, 1894.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0521, 028, 0173, '2024-06-11 10:00:00+00', 39467.0, 525.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0551, 033, 0200, '2025-01-11 10:00:00+00', 73936.0, 4200.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0379, 035, 0209, '2024-04-26 10:00:00+00', 183334.0, 4878.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0456, 088, 0534, '2025-12-31 10:00:00+00', 117566.0, 3917.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0113, 020, 0123, '2025-12-23 10:00:00+00', 155505.0, 3741.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0270, 015, 0089, '2024-08-26 10:00:00+00', 188054.0, 2481.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0120, 061, 0363, '2024-07-14 10:00:00+00', 70383.0, 2022.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0077, 056, 0335, '2025-04-11 10:00:00+00', 125461.0, 4353.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0283, 077, 0465, '2024-08-04 10:00:00+00', 43784.0, 806.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0323, 007, 0040, '2024-03-12 10:00:00+00', 26010.0, 1022.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0534, 054, 0326, '2025-12-07 10:00:00+00', 71222.0, 4772.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0642, 006, 0037, '2025-02-11 10:00:00+00', 45520.0, 2214.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0601, 064, 0386, '2025-02-10 10:00:00+00', 55498.0, 1802.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0482, 026, 0156, '2025-12-27 10:00:00+00', 15705.0, 1732.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0509, 049, 0290, '2024-10-19 10:00:00+00', 40143.0, 1826.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0091, 088, 0529, '2025-05-27 10:00:00+00', 160010.0, 226.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0069, 083, 0503, '2024-05-10 10:00:00+00', 16649.0, 1908.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0183, 007, 0040, '2024-11-18 10:00:00+00', 162016.0, 2355.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0390, 099, 0598, '2024-05-11 10:00:00+00', 48229.0, 3056.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0544, 030, 0185, '2024-08-28 10:00:00+00', 101123.0, 2099.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0497, 083, 0502, '2024-11-18 10:00:00+00', 30138.0, 3125.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0493, 051, 0303, '2025-02-21 10:00:00+00', 194065.0, 1993.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0295, 071, 0430, '2024-01-28 10:00:00+00', 102962.0, 2865.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0436, 019, 0119, '2024-04-05 10:00:00+00', 143284.0, 4007.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0117, 059, 0356, '2024-01-18 10:00:00+00', 173015.0, 1249.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0501, 070, 0422, '2024-04-11 10:00:00+00', 50426.0, 437.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0275, 086, 0520, '2025-10-25 10:00:00+00', 139003.0, 3550.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0576, 055, 0331, '2024-06-20 10:00:00+00', 121081.0, 2801.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0401, 075, 0453, '2025-04-23 10:00:00+00', 46624.0, 3465.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0056, 046, 0275, '2025-12-07 10:00:00+00', 178041.0, 1993.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0047, 053, 0316, '2024-08-21 10:00:00+00', 146204.0, 3557.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0587, 028, 0171, '2025-03-01 10:00:00+00', 142611.0, 1889.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0113, 056, 0338, '2024-08-04 10:00:00+00', 150341.0, 4621.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0022, 065, 0389, '2024-05-04 10:00:00+00', 30469.0, 2930.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0567, 011, 0065, '2025-08-15 10:00:00+00', 10807.0, 4448.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0371, 091, 0549, '2024-03-01 10:00:00+00', 186398.0, 1486.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0406, 039, 0235, '2024-03-22 10:00:00+00', 192636.0, 1522.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0340, 070, 0424, '2024-03-19 10:00:00+00', 170610.0, 4729.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0255, 003, 0014, '2024-09-29 10:00:00+00', 125540.0, 364.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0105, 085, 0514, '2024-02-04 10:00:00+00', 51200.0, 4172.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0161, 049, 0290, '2025-04-29 10:00:00+00', 58999.0, 398.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0647, 043, 0254, '2025-05-26 10:00:00+00', 156956.0, 2431.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0127, 064, 0387, '2024-12-06 10:00:00+00', 55311.0, 1274.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0277, 014, 0087, '2025-12-02 10:00:00+00', 149944.0, 805.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0426, 004, 0021, '2025-10-30 10:00:00+00', 77576.0, 4637.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0156, 016, 0098, '2025-02-02 10:00:00+00', 168283.0, 3404.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0621, 053, 0320, '2025-12-04 10:00:00+00', 160083.0, 3682.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0024, 052, 0310, '2024-09-23 10:00:00+00', 155500.0, 3959.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0103, 046, 0271, '2025-08-19 10:00:00+00', 182625.0, 4061.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0299, 073, 0440, '2025-05-28 10:00:00+00', 126872.0, 2020.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0575, 048, 0286, '2024-07-08 10:00:00+00', 173468.0, 2529.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0547, 086, 0519, '2025-10-19 10:00:00+00', 94683.0, 3332.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0509, 067, 0404, '2024-02-06 10:00:00+00', 44090.0, 4677.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0111, 077, 0464, '2024-05-11 10:00:00+00', 139633.0, 4933.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0407, 040, 0238, '2025-09-15 10:00:00+00', 104211.0, 3229.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0577, 018, 0112, '2025-11-28 10:00:00+00', 64289.0, 2923.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0646, 014, 0086, '2025-08-15 10:00:00+00', 128950.0, 4794.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0213, 083, 0502, '2025-08-29 10:00:00+00', 98542.0, 2247.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0145, 068, 0413, '2024-08-20 10:00:00+00', 115768.0, 4487.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0581, 040, 0239, '2024-05-22 10:00:00+00', 13693.0, 4242.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0422, 053, 0319, '2024-03-10 10:00:00+00', 85631.0, 1433.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0330, 096, 0579, '2024-07-11 10:00:00+00', 172983.0, 3530.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0275, 036, 0215, '2025-09-14 10:00:00+00', 144693.0, 4203.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0512, 053, 0321, '2024-08-05 10:00:00+00', 194099.0, 2836.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0495, 087, 0527, '2024-12-14 10:00:00+00', 95766.0, 867.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0436, 013, 0080, '2024-12-01 10:00:00+00', 146553.0, 1242.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0166, 088, 0533, '2025-01-23 10:00:00+00', 149732.0, 1561.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0449, 019, 0117, '2024-10-21 10:00:00+00', 100430.0, 3674.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0175, 089, 0538, '2024-08-31 10:00:00+00', 27706.0, 1345.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0561, 071, 0429, '2024-04-03 10:00:00+00', 129523.0, 275.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0121, 074, 0446, '2025-02-10 10:00:00+00', 169421.0, 2420.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0331, 063, 0381, '2024-02-10 10:00:00+00', 193191.0, 1559.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0298, 089, 0536, '2025-12-09 10:00:00+00', 141237.0, 3241.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0620, 043, 0258, '2024-02-19 10:00:00+00', 121199.0, 3991.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0339, 023, 0139, '2024-03-28 10:00:00+00', 63619.0, 4495.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0486, 002, 0011, '2024-09-03 10:00:00+00', 124789.0, 3610.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0154, 080, 0482, '2025-11-09 10:00:00+00', 42743.0, 245.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 034, 0205, '2024-09-19 10:00:00+00', 48717.0, 4605.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0339, 016, 0097, '2025-03-01 10:00:00+00', 61930.0, 4039.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0161, 011, 0069, '2024-02-05 10:00:00+00', 59801.0, 4780.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0354, 003, 0015, '2025-02-17 10:00:00+00', 27184.0, 2449.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0437, 099, 0599, '2024-02-24 10:00:00+00', 34390.0, 3208.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0413, 044, 0261, '2025-03-10 10:00:00+00', 162217.0, 4632.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0208, 013, 0080, '2025-06-22 10:00:00+00', 155090.0, 1448.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0222, 048, 0287, '2024-07-21 10:00:00+00', 89434.0, 2353.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0105, 021, 0130, '2025-07-30 10:00:00+00', 53238.0, 3337.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0590, 048, 0284, '2024-11-15 10:00:00+00', 174514.0, 1914.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0003, 040, 0238, '2024-08-03 10:00:00+00', 146010.0, 948.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0151, 024, 0147, '2024-02-18 10:00:00+00', 31610.0, 4095.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0332, 013, 0080, '2025-02-24 10:00:00+00', 104735.0, 1322.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0451, 072, 0436, '2024-11-21 10:00:00+00', 60939.0, 2879.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0513, 020, 0121, '2025-01-22 10:00:00+00', 58692.0, 4788.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0387, 066, 0395, '2024-06-28 10:00:00+00', 148136.0, 3108.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0535, 054, 0325, '2025-01-30 10:00:00+00', 80301.0, 840.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0220, 028, 0171, '2025-03-27 10:00:00+00', 19716.0, 1370.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0574, 075, 0453, '2024-08-30 10:00:00+00', 116011.0, 2252.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0124, 095, 0572, '2025-10-01 10:00:00+00', 82587.0, 3052.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0026, 062, 0375, '2025-03-09 10:00:00+00', 15871.0, 3034.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0435, 036, 0219, '2025-10-19 10:00:00+00', 114486.0, 1764.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0384, 030, 0184, '2025-04-27 10:00:00+00', 175180.0, 1804.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0370, 089, 0539, '2024-11-27 10:00:00+00', 72726.0, 245.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0318, 056, 0337, '2024-05-11 10:00:00+00', 190433.0, 3221.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0515, 003, 0014, '2025-08-21 10:00:00+00', 132744.0, 2436.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0282, 081, 0491, '2024-07-28 10:00:00+00', 21865.0, 559.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0260, 047, 0281, '2026-01-02 10:00:00+00', 58212.0, 4887.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0483, 077, 0466, '2025-10-27 10:00:00+00', 136030.0, 1623.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0559, 017, 0107, '2024-05-08 10:00:00+00', 28120.0, 3227.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0628, 026, 0157, '2025-08-04 10:00:00+00', 25680.0, 1278.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0430, 020, 0123, '2025-08-27 10:00:00+00', 74365.0, 3832.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0064, 053, 0322, '2024-08-23 10:00:00+00', 69137.0, 4657.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0199, 003, 0018, '2024-04-13 10:00:00+00', 105039.0, 2792.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0174, 100, 0601, '2025-05-15 10:00:00+00', 153114.0, 4429.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0413, 071, 0427, '2025-09-02 10:00:00+00', 154031.0, 732.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0514, 025, 0152, '2025-06-18 10:00:00+00', 132154.0, 887.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0455, 008, 0046, '2025-10-05 10:00:00+00', 60910.0, 1827.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0518, 069, 0420, '2024-11-26 10:00:00+00', 149117.0, 226.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0281, 095, 0575, '2025-01-11 10:00:00+00', 79983.0, 1164.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0478, 096, 0582, '2024-04-01 10:00:00+00', 189287.0, 4838.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0091, 019, 0120, '2025-11-30 10:00:00+00', 157984.0, 1695.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0089, 032, 0191, '2025-05-16 10:00:00+00', 150297.0, 364.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0011, 037, 0223, '2025-02-06 10:00:00+00', 190554.0, 3971.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0253, 053, 0316, '2024-05-25 10:00:00+00', 39539.0, 1287.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0055, 065, 0389, '2024-10-06 10:00:00+00', 156464.0, 1658.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0144, 096, 0579, '2024-05-15 10:00:00+00', 124197.0, 3591.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0193, 047, 0280, '2024-10-06 10:00:00+00', 50444.0, 1650.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0266, 075, 0451, '2025-03-18 10:00:00+00', 115080.0, 957.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0364, 098, 0593, '2025-06-25 10:00:00+00', 87149.0, 3057.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0536, 077, 0461, '2025-02-08 10:00:00+00', 16879.0, 500.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0395, 026, 0160, '2024-07-24 10:00:00+00', 163829.0, 4858.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0445, 059, 0356, '2025-11-29 10:00:00+00', 43347.0, 1899.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0516, 094, 0565, '2024-10-30 10:00:00+00', 9594.0, 943.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0216, 045, 0265, '2024-03-23 10:00:00+00', 47424.0, 4031.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0033, 019, 0119, '2024-04-04 10:00:00+00', 113056.0, 1727.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0144, 079, 0479, '2024-03-09 10:00:00+00', 128642.0, 2845.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0578, 064, 0387, '2025-12-30 10:00:00+00', 199487.0, 477.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0108, 061, 0368, '2024-11-12 10:00:00+00', 27214.0, 1500.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0487, 057, 0343, '2025-12-09 10:00:00+00', 109700.0, 1020.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0367, 052, 0314, '2024-12-31 10:00:00+00', 90971.0, 4024.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0191, 004, 0023, '2025-03-10 10:00:00+00', 130494.0, 3939.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0590, 074, 0446, '2025-02-25 10:00:00+00', 173300.0, 4079.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0259, 064, 0383, '2025-07-16 10:00:00+00', 139992.0, 2967.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0411, 051, 0308, '2025-10-11 10:00:00+00', 88468.0, 2119.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0111, 071, 0432, '2025-12-24 10:00:00+00', 142939.0, 2406.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0411, 005, 0030, '2025-09-24 10:00:00+00', 90498.0, 4395.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0308, 089, 0537, '2025-11-26 10:00:00+00', 45068.0, 4852.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0134, 057, 0342, '2024-03-01 10:00:00+00', 79886.0, 940.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0145, 059, 0355, '2025-05-20 10:00:00+00', 115525.0, 3443.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0472, 001, 0001, '2025-02-07 10:00:00+00', 131458.0, 1841.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0309, 052, 0315, '2025-01-08 10:00:00+00', 55479.0, 1712.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0209, 074, 0448, '2025-09-08 10:00:00+00', 27174.0, 2204.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0569, 064, 0384, '2024-09-16 10:00:00+00', 53949.0, 4110.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0353, 017, 0103, '2025-12-18 10:00:00+00', 180858.0, 4704.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0404, 036, 0218, '2025-11-21 10:00:00+00', 43544.0, 3282.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0249, 016, 0099, '2025-07-18 10:00:00+00', 157896.0, 1252.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0137, 068, 0410, '2025-04-05 10:00:00+00', 153636.0, 2519.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0435, 067, 0404, '2025-03-22 10:00:00+00', 114065.0, 787.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0501, 100, 0601, '2024-12-22 10:00:00+00', 47019.0, 2016.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0183, 040, 0241, '2025-11-11 10:00:00+00', 161212.0, 3167.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0514, 001, 0002, '2025-07-16 10:00:00+00', 137602.0, 3461.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0236, 023, 0142, '2024-08-25 10:00:00+00', 15409.0, 1739.0, 'resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0217, 052, 0310, '2025-09-08 10:00:00+00', 87130.0, 960.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0394, 030, 0185, '2025-07-04 10:00:00+00', 45498.0, 1434.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0319, 066, 0397, '2025-07-28 10:00:00+00', 67849.0, 485.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0432, 030, 0184, '2025-12-21 10:00:00+00', 75231.0, 3462.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0530, 018, 0109, '2025-04-21 10:00:00+00', 40276.0, 876.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0104, 069, 0415, '2024-08-31 10:00:00+00', 165191.0, 1517.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0132, 098, 0589, '2024-11-22 10:00:00+00', 163130.0, 3345.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0466, 002, 0012, '2025-02-11 10:00:00+00', 101408.0, 3490.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0056, 052, 0311, '2025-09-02 10:00:00+00', 177049.0, 2318.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0650, 019, 0119, '2025-09-19 10:00:00+00', 161591.0, 3888.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0382, 080, 0485, '2024-07-16 10:00:00+00', 107334.0, 4582.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0115, 030, 0184, '2024-03-30 10:00:00+00', 116273.0, 4555.0, 'partially_resolved', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0082, 025, 0154, '2025-05-02 10:00:00+00', 183187.0, 2961.0, 'recurring', 'Service completed', 1, false);
+INSERT INTO "ServiceHistories" ("VehicleId", "GarageId", "ServiceId", "ServiceDate", "MileageKm", "CostAed", "Outcome", "Notes", "TechnicianId", "IsDeleted") 
+        VALUES (0605, 045, 0265, '2024-10-06 10:00:00+00', 108010.0, 4418.0, 'recurring', 'Service completed', 1, false);

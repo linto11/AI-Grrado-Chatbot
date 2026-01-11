@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="001-create-tables" author="system">
+        <comment>Create initial schema with all entity tables</comment>
+        
+        <!-- Create DiagnosticRules table -->
+        <createTable tableName="DiagnosticRules">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="Conditions" type="TEXT" remarks="Diagnostic conditions">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LogicType" type="TEXT" remarks="Logic type for conditions">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Confidence" type="DOUBLE PRECISION" remarks="Confidence score">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Conclusion" type="TEXT" remarks="Diagnostic conclusion">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Description" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Priority" type="INTEGER" remarks="Priority level">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create Garages table -->
+        <createTable tableName="Garages">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="Name" type="TEXT" remarks="Garage name">
+                <constraints nullable="false"/>
+            </column>
+            <column name="City" type="TEXT" remarks="Garage location city">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Address" type="TEXT" remarks="Full address">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PhoneNumber" type="TEXT" remarks="Contact phone">
+                <constraints nullable="false"/>
+            </column>
+            <column name="GarageType" type="TEXT" remarks="Type of garage (general, specialized, etc.)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="EvSupported" type="BOOLEAN" remarks="EV charging support">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Rating" type="DOUBLE PRECISION" remarks="Customer rating">
+                <constraints nullable="false"/>
+            </column>
+            <column name="OperatingHours" type="TEXT" remarks="Operating hours information">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create ImageDiagnostics table -->
+        <createTable tableName="ImageDiagnostics">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="VisualFeature" type="TEXT" remarks="Visual features detected">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Confidence" type="DOUBLE PRECISION" remarks="Detection confidence">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LikelyIssue" type="TEXT" remarks="Likely vehicle issue">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Urgency" type="TEXT" remarks="Urgency level">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FilePath" type="TEXT" remarks="Image file path">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ImageType" type="TEXT" remarks="Type of image">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Description" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create Users table -->
+        <createTable tableName="Users">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="Name" type="TEXT" remarks="User full name">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Email" type="TEXT" remarks="User email address">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PhoneNumber" type="TEXT" remarks="Contact phone">
+                <constraints nullable="false"/>
+            </column>
+            <column name="City" type="TEXT" remarks="User city">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FamilyType" type="TEXT" remarks="Family type (single, married, etc.)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ExperienceLevel" type="TEXT" remarks="Vehicle maintenance experience level">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create VehicleIssues table -->
+        <createTable tableName="VehicleIssues">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="Symptom" type="TEXT" remarks="Vehicle symptom">
+                <constraints nullable="false"/>
+            </column>
+            <column name="AffectedSystem" type="TEXT" remarks="Vehicle system affected">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Severity" type="TEXT" remarks="Issue severity level">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DrivesSafe" type="BOOLEAN" remarks="Safe to drive with issue">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Description" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="PossibleCauses" type="TEXT" remarks="Possible root causes">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create Vehicles table (depends on Users) -->
+        <createTable tableName="Vehicles">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="UserId" type="INTEGER" remarks="Reference to Users">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Brand" type="TEXT" remarks="Vehicle brand/make">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Model" type="TEXT" remarks="Vehicle model">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Year" type="INTEGER" remarks="Manufacturing year">
+                <constraints nullable="false"/>
+            </column>
+            <column name="VehicleType" type="TEXT" remarks="Type of vehicle">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FuelType" type="TEXT" remarks="Fuel type (Petrol, Diesel, Electric, etc.)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Color" type="TEXT" remarks="Vehicle color">
+                <constraints nullable="false"/>
+            </column>
+            <column name="MileageKm" type="DOUBLE PRECISION" remarks="Current mileage in km">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LicensePlate" type="TEXT" remarks="License plate number">
+                <constraints nullable="false"/>
+            </column>
+            <column name="City" type="TEXT" remarks="Vehicle registration city">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create Services table (depends on Garages) -->
+        <createTable tableName="Services">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="GarageId" type="INTEGER" remarks="Reference to Garages">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ServiceName" type="TEXT" remarks="Service name">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Category" type="TEXT" remarks="Service category">
+                <constraints nullable="false"/>
+            </column>
+            <column name="AvgCostAed" type="DECIMAL(10,2)" remarks="Average cost in AED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SkillLevel" type="TEXT" remarks="Required skill level">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Description" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="EstimatedDurationMinutes" type="INTEGER" remarks="Estimated duration">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Create ServiceHistories table (depends on Vehicles, Garages, Services) -->
+        <createTable tableName="ServiceHistories">
+            <column name="Id" type="SERIAL" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="VehicleId" type="INTEGER" remarks="Reference to Vehicles">
+                <constraints nullable="false"/>
+            </column>
+            <column name="GarageId" type="INTEGER" remarks="Reference to Garages">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ServiceId" type="INTEGER" remarks="Reference to Services">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ServiceDate" type="TIMESTAMP WITH TIME ZONE" remarks="When service was performed">
+                <constraints nullable="false"/>
+            </column>
+            <column name="MileageKm" type="DOUBLE PRECISION" remarks="Mileage at service time">
+                <constraints nullable="false"/>
+            </column>
+            <column name="CostAed" type="DECIMAL(10,2)" remarks="Actual cost in AED">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Outcome" type="TEXT" remarks="Service outcome">
+                <constraints nullable="false"/>
+            </column>
+            <column name="Notes" type="TEXT" remarks="Service notes">
+                <constraints nullable="false"/>
+            </column>
+            <column name="TechnicianId" type="INTEGER" remarks="Technician reference">
+                <constraints nullable="false"/>
+            </column>
+            <column name="IsDeleted" type="BOOLEAN" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="DeletedAt" type="TIMESTAMP WITH TIME ZONE">
+                <constraints nullable="true"/>
+            </column>
+            <column name="DeletedBy" type="TEXT">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- Add Foreign Keys -->
+        <addForeignKeyConstraint
+            constraintName="FK_Vehicles_Users_UserId"
+            baseTableName="Vehicles"
+            baseColumnNames="UserId"
+            referencedTableName="Users"
+            referencedColumnNames="Id"
+            onDelete="CASCADE"/>
+
+        <addForeignKeyConstraint
+            constraintName="FK_Services_Garages_GarageId"
+            baseTableName="Services"
+            baseColumnNames="GarageId"
+            referencedTableName="Garages"
+            referencedColumnNames="Id"
+            onDelete="CASCADE"/>
+
+        <addForeignKeyConstraint
+            constraintName="FK_ServiceHistories_Vehicles_VehicleId"
+            baseTableName="ServiceHistories"
+            baseColumnNames="VehicleId"
+            referencedTableName="Vehicles"
+            referencedColumnNames="Id"
+            onDelete="CASCADE"/>
+
+        <addForeignKeyConstraint
+            constraintName="FK_ServiceHistories_Garages_GarageId"
+            baseTableName="ServiceHistories"
+            baseColumnNames="GarageId"
+            referencedTableName="Garages"
+            referencedColumnNames="Id"
+            onDelete="RESTRICT"/>
+
+        <addForeignKeyConstraint
+            constraintName="FK_ServiceHistories_Services_ServiceId"
+            baseTableName="ServiceHistories"
+            baseColumnNames="ServiceId"
+            referencedTableName="Services"
+            referencedColumnNames="Id"
+            onDelete="RESTRICT"/>
+
+        <!-- Add Indexes -->
+        <createIndex tableName="DiagnosticRules" indexName="IX_DiagnosticRule_LogicType">
+            <column name="LogicType"/>
+        </createIndex>
+
+        <createIndex tableName="Garages" indexName="IX_Garages_Name_City_Type">
+            <column name="Name"/>
+            <column name="City"/>
+            <column name="GarageType"/>
+        </createIndex>
+
+        <createIndex tableName="ImageDiagnostics" indexName="IX_ImageDiagnostic_Urgency">
+            <column name="Urgency"/>
+        </createIndex>
+
+        <createIndex tableName="Services" indexName="IX_Services_GarageId">
+            <column name="GarageId"/>
+        </createIndex>
+
+        <createIndex tableName="Services" indexName="IX_Services_Category">
+            <column name="Category"/>
+        </createIndex>
+
+        <createIndex tableName="ServiceHistories" indexName="IX_ServiceHistory_VehicleId">
+            <column name="VehicleId"/>
+        </createIndex>
+
+        <createIndex tableName="ServiceHistories" indexName="IX_ServiceHistory_GarageId">
+            <column name="GarageId"/>
+        </createIndex>
+
+        <createIndex tableName="ServiceHistories" indexName="IX_ServiceHistory_ServiceDate">
+            <column name="ServiceDate"/>
+        </createIndex>
+
+        <createIndex tableName="ServiceHistories" indexName="IX_ServiceHistories_ServiceId">
+            <column name="ServiceId"/>
+        </createIndex>
+
+        <createIndex tableName="Users" indexName="IX_Users_Name_Email">
+            <column name="Name"/>
+            <column name="Email"/>
+        </createIndex>
+
+        <createIndex tableName="VehicleIssues" indexName="IX_VehicleIssue_Severity">
+            <column name="Severity"/>
+        </createIndex>
+
+        <createIndex tableName="Vehicles" indexName="IX_Vehicles_UserId">
+            <column name="UserId"/>
+        </createIndex>
+
+        <createIndex tableName="Vehicles" indexName="IX_Vehicles_Brand_Model_City">
+            <column name="Brand"/>
+            <column name="Model"/>
+            <column name="City"/>
+        </createIndex>
+    </changeSet>
+
+</databaseChangeLog>

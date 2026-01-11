@@ -1,53 +1,284 @@
-# AI-Grrado-Chatbot Project
+# Vehicle Service Portal
 
-[![CI](https://github.com/linto11/AI-Grrado-Chatbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/linto11/AI-Grrado-Chatbot/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
-[![Tech Stack](https://img.shields.io/badge/stack-Python%20%7C%20Faker%20%7C%20GitHub%20Actions%20%7C%20Foundry-lightgrey)](#tech-stack)
+[![Tech Stack](https://img.shields.io/badge/stack-.NET%209%20%7C%20Angular%2019%20%7C%20PostgreSQL%2016%20%7C%20Liquibase-blue)](#tech-stack)
+[![Progress](https://img.shields.io/badge/Progress-14%25%20(100%2F735%20hrs)-orange)](#project-status)
 
-Structured data generator for AI/ML experimentation and chatbot scenarios.
+A full-stack web application for managing vehicle service records, diagnostics, and garage operations.
 
-## Project structure
-- DataGenerator/generator.py: Generates synthetic CSVs (garages, services, users, vehicles, service history, issues, image diagnostics).
-- _requirements.txt: Pinned Python dependencies (includes Faker).
-- .github/: CI workflow and templates for issues/PRs.
-- CONTRIBUTING.md, CODE_OF_CONDUCT.md, CHANGELOG.md: Collaboration and release notes.
+**Status:** Phases 1-3 Complete ✅ | Phase 4 Ready to Start 🎯
 
-## Tech stack
-- Python 3.13+
-- Faker for synthetic data
-- GitHub Actions for CI
-- Microsoft Foundry-compatible workspace assets (.foundry/ ignored; add as needed)
+## Project Overview
 
-## Prerequisites
-- Python 3.13+ (tested with 3.13)
-- PowerShell on Windows (or any shell if you adapt paths)
+The Vehicle Service Portal provides:
+- **User Management:** Customer profiles with experience levels
+- **Vehicle Management:** Vehicle records, history, and issue tracking
+- **Garage Management:** Service provider locations and offerings
+- **Service Management:** Service history, appointments, and diagnostics
+- **Analytics:** Dashboard with service trends, vehicle health, garage performance
+- **Image Diagnostics:** AI-powered image analysis for vehicle diagnostics
 
-## Quickstart
-1) Clone and open PowerShell at the repo root.
-2) Create and activate a virtual environment:
-   ```pwsh
-   python -m venv .venv
-   .\.venv\Scripts\Activate.ps1
-   ```
-3) Install dependencies:
-   ```pwsh
-   pip install -r _requirements.txt
-   ```
-4) Generate data:
-   ```pwsh
-   python DataGenerator/generator.py
-   ```
-   CSVs are written to ./data/.
+## Quick Links
 
-## Updating dependencies
-- Add new libs to `_requirements.txt` (pin versions).
-- Capture the current env for reuse:
-  ```pwsh
-  pip freeze > _requirements.txt
-  ```
+- **📋 Implementation Plan:** [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) ← Master development guide for Copilot
+- **📊 Progress Tracker:** [docs/02-progress-tracking/progress-tracker.md](docs/02-progress-tracking/progress-tracker.md) ← Single source of truth
+- **🏗️ Phase Documentation:** [docs/03-phase-specific/](docs/03-phase-specific/) ← Detailed phase completions
+- **💾 Database Design:** [docs/03-phase-specific/phase-3-database-liquibase/](docs/03-phase-specific/phase-3-database-liquibase/) ← Database schema & Liquibase
 
-## Troubleshooting
+## Tech Stack
+
+**Backend:**
+- .NET Core 9 (C#)
+- Clean Architecture (Domain, Application, Infrastructure, API layers)
+- Entity Framework Core 9 + PostgreSQL 16
+- Liquibase (database version control)
+
+**Frontend:**
+- Angular 19 (TypeScript, standalone components)
+- Tailwind CSS (styling)
+- Shadcn-inspired components (UI library)
+- ngx-echarts (charting and analytics)
+
+**Infrastructure:**
+- PostgreSQL 16 (database)
+- Liquibase (schema management)
+- Keycloak (authentication/authorization)
+- Docker & Docker Compose (containerization)
+
+**Development Tools:**
+- VS Code (recommended IDE)
+- .NET CLI 9
+- Node.js 20 LTS
+- npm / Angular CLI 19
+
+## Project Status
+
+**Phases Completed:** 1, 2, 3 (Environment, Architecture, Database)  
+**Total Progress:** 14% (100 of 735 hours)  
+**Current Phase:** 4 - Backend API Development (Ready to Start)
+
+| Phase | Status | Tasks | Time |
+|-------|--------|-------|------|
+| 1: Environment Setup | ✅ Complete | 7/7 | 5 hrs |
+| 2: Project Structure | ✅ Complete | 13/13 | 8 hrs |
+| 3: Database & Liquibase | ✅ Complete | 13/13 | 15 hrs |
+| 4: Backend API | 🎯 Ready | 0/14 | 40 hrs |
+| 5: Frontend UI | ⏳ Blocked | 0/10 | 30 hrs |
+## Documentation
+
+- **[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)** - Detailed implementation plan for all phases (start here for development)
+- **[docs/02-progress-tracking/progress-tracker.md](docs/02-progress-tracking/progress-tracker.md)** - Task-by-task progress tracking
+- **[docs/03-phase-specific/](docs/03-phase-specific/)** - Complete documentation for each phase
+- **[docs/00-getting-started/](docs/00-getting-started/)** - Setup and getting started guides
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history and release notes
+- **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** - Community guidelines
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+
+## Community
+
+- **Issues:** Report bugs or request features via GitHub issues
+- **Discussions:** Ask questions and share ideas
+- **Contributing:** See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## License
+
+This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
+
+---
+
+**Last Updated:** January 11, 2026  
+**Current Phase:** 4 - Backend API Development  
+**Overall Progress:** 14% (100 of 735 hours)
+
+## Getting Started
+
+### Prerequisites
+- .NET Core 9 SDK
+- Node.js 20 LTS
+- PostgreSQL 16 (Docker)
+- VS Code (recommended)
+- Docker Desktop
+
+### Setup (Phases 1-3 already complete)
+
+```bash
+# Clone repository
+git clone <repo-url>
+cd AI-ML-Project
+
+# Start database
+docker-compose up -d
+
+# Verify database
+psql -h localhost -U postgres -d vehicle_service_db -c "SELECT COUNT(*) FROM \"Users\";"
+# Should show: 100 users
+
+# Build backend
+cd server
+dotnet restore
+dotnet build
+
+# Build frontend
+cd ../client
+npm install
+ng build
+```
+
+## Project Structure
+
+```
+AI-ML-Project/
+├── server/                          # .NET Backend
+│   ├── Domain/                      # Entity models
+│   ├── Application/                 # Business logic
+│   ├── Infrastructure/              # Data access & Liquibase
+│   │   ├── Database/
+│   │   │   └── liquibase/          # Schema migrations
+│   │   ├── Data/                    # EF Core DbContext
+│   │   └── Services/                # Infrastructure services
+│   └── API/                         # REST API
+│
+├── client/                          # Angular Frontend
+│   ├── src/app/
+│   │   ├── core/                    # Services, interceptors
+│   │   ├── shared/                  # UI components
+│   │   └── features/                # Feature modules (8 entities)
+│   └── styles.css                   # Tailwind CSS
+│
+├── scripts/
+│   └── database-setup/              # Database initialization
+│       ├── init-db.sql
+│       └── create_migration_user.sql
+│
+├── docs/                            # Documentation
+│   ├── 00-getting-started/
+│   ├── 01-requirements/
+│   ├── 02-progress-tracking/        # Task tracking
+│   ├── 03-phase-specific/           # Phase documentation
+│   └── 04-deployment-guides/
+│
+├── data/                            # CSV seed data
+├── docker-compose.yml               # Docker services
+└── IMPLEMENTATION_PLAN.md           # THIS PLAN
+```
+
+## Database Schema
+
+**8 Tables:**
+- **Users** (100 records) - Customer profiles
+- **Vehicles** (650+ records) - Vehicle inventory
+- **Garages** - Service provider locations
+- **Services** - Service offerings by garage
+- **VehicleIssues** - Reported issues
+- **ServiceHistories** - Service appointments
+- **DiagnosticRules** - AI diagnostic rules
+- **ImageDiagnostics** - Image analysis results
+
+**Features:**
+- 12 composite indexes for performance
+- 5 foreign key relationships
+- Soft-delete pattern on all tables
+- 3,400+ seed records via Liquibase
+
+## Database Management
+
+**Version Control:** Liquibase (not EF Core migrations)
+
+```bash
+# Check status
+cd server/Infrastructure/Database
+liquibase status
+
+# Deploy schema and seed data
+liquibase update
+
+# View changelog
+liquibase history
+```
+
+**Setup Scripts** (environment configuration only):
+- `scripts/prerequisites/00-database-init/init-db.sql` - Creates database
+- `scripts/prerequisites/00-database-init/create_migration_user.sql` - Creates migration user
+
+## Development Workflow
+
+### Backend (Phase 4)
+```bash
+cd server/API
+
+# Build
+dotnet build
+
+# Run API
+dotnet run
+
+# Test
+dotnet test
+```
+
+**API will be available at:** http://localhost:5000  
+**Swagger UI:** http://localhost:5000/swagger
+
+### Frontend (Phases 5+)
+```bash
+cd client
+
+# Install dependencies
+npm install
+
+# Development server
+ng serve
+
+# Build
+ng build
+```
+
+**Application will be available at:** http://localhost:4200
+
+## Key Features
+
+### Authentication
+- OAuth 2.0 / OIDC via Keycloak
+- Role-based access control (RBAC)
+- Token refresh and session management
+
+### API
+- 32 REST endpoints (4 per entity)
+- Full CRUD operations
+- Soft-delete with restore
+- File upload for images
+- Search and filtering
+- Pagination support
+
+### UI
+- Responsive design (mobile-first)
+- Tailwind CSS styling
+- Interactive charts (ngx-echarts)
+- Data grids with sorting/filtering
+- Modal dialogs for forms
+- Image upload and preview
+
+### Analytics
+- Service volume trends
+- Vehicle health metrics
+- Garage performance
+- Upcoming maintenance
+- Dashboard with real-time updates
+
+## Next Steps (Phase 4)
+
+See [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) for detailed Phase 4 tasks:
+
+1. Configure Keycloak authentication
+2. Scaffold DbContext from database
+3. Build repository pattern
+4. Create DTOs and mappings
+5. Implement service layer
+6. Build REST API controllers
+7. Add file upload endpoint
+8. Create Swagger documentation
+
+## Documentation
 - Activation blocked? Allow for the session:
   ```pwsh
   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="002-seed-data-users" author="system">
+        <comment>Seed Users table with test data</comment>
+        <sqlFile path="sql/seed-users.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-vehicles" author="system">
+        <comment>Seed Vehicles table with test data</comment>
+        <sqlFile path="sql/seed-vehicles.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-vehicle-issues" author="system">
+        <comment>Seed VehicleIssues table with test data</comment>
+        <sqlFile path="sql/seed-vehicle-issues.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-garages" author="system">
+        <comment>Seed Garages table with test data</comment>
+        <sqlFile path="sql/seed-garages.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-services" author="system">
+        <comment>Seed Services table with test data</comment>
+        <sqlFile path="sql/seed-services.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-service-histories" author="system">
+        <comment>Seed ServiceHistories table with test data</comment>
+        <sqlFile path="sql/seed-service-histories.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-diagnostic-rules" author="system">
+        <comment>Seed DiagnosticRules table with test data</comment>
+        <sqlFile path="sql/seed-diagnostic-rules.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="002-seed-data-image-diagnostics" author="system">
+        <comment>Seed ImageDiagnostics table with test data</comment>
+        <sqlFile path="sql/seed-image-diagnostics.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>
