@@ -1,5 +1,4 @@
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Processing;
+using SkiaSharp;
 using Microsoft.Extensions.Logging;
 using Abstractions.Integration;
 
@@ -85,24 +84,54 @@ public class ImageService : IImageService
     {
         try
         {
-            using (var image = await Image.LoadAsync(imagePath))
+            using (var inputStream = File.OpenRead(imagePath))
+            using (var originalBitmap = SKBitmap.Decode(inputStream))
             {
-                // Resize image to thumbnail size
-                image.Mutate(x => x.Resize(new ResizeOptions
+                if (originalBitmap == null)
                 {
-                    Size = new Size(THUMBNAIL_WIDTH, THUMBNAIL_HEIGHT),
-                    Mode = ResizeMode.Max
-                }));
+                    throw new InvalidOperationException("Failed to decode image");
+                }
 
-                var fileName = Path.GetFileNameWithoutExtension(imagePath);
-                var extension = Path.GetExtension(imagePath);
-                var thumbnailFileName = $"{fileName}_thumb{extension}";
-                var thumbnailPath = Path.Combine(_thumbnailDirectory, thumbnailFileName);
+                // Calculate thumbnail dimensions maintaining aspect ratio
+                var aspectRatio = (float)originalBitmap.Width / originalBitmap.Height;
+                int targetWidth = THUMBNAIL_WIDTH;
+                int targetHeight = THUMBNAIL_HEIGHT;
 
-                await image.SaveAsync(thumbnailPath);
-                
-                _logger.LogInformation($"Thumbnail generated: {thumbnailFileName}");
-                return thumbnailPath;
+                if (aspectRatio > 1)
+                {
+                    targetHeight = (int)(THUMBNAIL_WIDTH / aspectRatio);
+                }
+                else
+                {
+                    targetWidth = (int)(THUMBNAIL_HEIGHT * aspectRatio);
+                }
+
+                // Resize image
+                using (var scaledBitmap = originalBitmap.Resize(
+                    new SKImageInfo(targetWidth, targetHeight), 
+                    SKFilterQuality.High))
+                {
+                    if (scaledBitmap == null)
+                    {
+                        throw new InvalidOperationException("Failed to resize image");
+                    }
+
+                    var fileName = Path.GetFileNameWithoutExtension(imagePath);
+                    var extension = Path.GetExtension(imagePath);
+                    var thumbnailFileName = $"{fileName}_thumb{extension}";
+                    var thumbnailPath = Path.Combine(_thumbnailDirectory, thumbnailFileName);
+
+                    // Save thumbnail
+                    using (var image = SKImage.FromBitmap(scaledBitmap))
+                    using (var data = image.Encode(SKEncodedImageFormat.Jpeg, 85))
+                    using (var outputStream = File.OpenWrite(thumbnailPath))
+                    {
+                        data.SaveTo(outputStream);
+                    }
+
+                    _logger.LogInformation($"Thumbnail generated: {thumbnailFileName}");
+                    return thumbnailPath;
+                }
             }
         }
         catch (Exception ex)
@@ -147,9 +176,11 @@ public class ImageService : IImageService
         try
         {
             stream.Position = 0;
-            // Try to identify the image format
-            var format = Image.DetectFormat(stream);
-            return format != null;
+            // Try to decode the image to verify it's valid
+            using (var bitmap = SKBitmap.Decode(stream))
+            {
+                return bitmap != null;
+            }
         }
         catch (Exception ex)
         {
@@ -165,14 +196,18 @@ public class ImageService : IImageService
             if (!File.Exists(imagePath))
                 return null;
 
-            using (var image = await Image.LoadAsync(imagePath))
+            using (var stream = File.OpenRead(imagePath))
+            using (var codec = SKCodec.Create(stream))
             {
+                if (codec == null)
+                    return null;
+
                 var fileInfo = new FileInfo(imagePath);
                 return new ImageInfo
                 {
-                    Width = image.Width,
-                    Height = image.Height,
-                    Format = image.Metadata.DecodedImageFormat?.Name ?? "Unknown",
+                    Width = codec.Info.Width,
+                    Height = codec.Info.Height,
+                    Format = codec.EncodedFormat.ToString(),
                     FileSizeBytes = fileInfo.Length
                 };
             }
