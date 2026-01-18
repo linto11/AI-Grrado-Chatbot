@@ -1,8 +1,8 @@
 using Infrastructure.Persistance.DBContext;
 using Infrastructure.Persistance;
+using Infrastructure;
 using Application;
 using Application.Common.Configuration;
-using Infrastructure;
 using Serilog;
 using API.Middleware;
 
@@ -27,6 +27,9 @@ builder.Services.AddControllers();
 // Add layer-specific dependency injection
 builder.Services.AddInfrastructureDI(builder.Configuration);
 builder.Services.AddApplicationDI();
+
+// Add Polly resilience policies and HTTP clients
+builder.Services.AddPollyPolicies(builder.Configuration);
 
 var app = builder.Build();
 
