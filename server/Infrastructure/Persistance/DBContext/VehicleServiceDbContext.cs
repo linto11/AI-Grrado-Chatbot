@@ -19,6 +19,12 @@ public class VehicleServiceDbContext : DbContext
     public DbSet<ImageDiagnostic> ImageDiagnostics { get; set; } = null!;
     public DbSet<ErrorMessage> ErrorMessages { get; set; } = null!;
 
+    // Logging entities
+    public DbSet<AuditLog> AuditLogs { get; set; } = null!;
+    public DbSet<ErrorLog> ErrorLogs { get; set; } = null!;
+    public DbSet<RequestResponseLog> RequestResponseLogs { get; set; } = null!;
+    public DbSet<ActivityLog> ActivityLogs { get; set; } = null!;
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

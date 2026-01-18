@@ -1,15 +1,12 @@
-using System.Diagnostics;
+﻿namespace API.Middleware;
+
 using Serilog.Context;
 
-namespace API.Middleware;
-
-/// <summary>
-/// Ensures every request has a CorrelationId and flows it into Serilog's log context.
-/// </summary>
 public class CorrelationIdMiddleware
 {
-    private const string HeaderName = "X-Correlation-ID";
     private readonly RequestDelegate _next;
+    private const string CorrelationIdHeaderName = "X-Correlation-ID";
+    private const string CorrelationIdContextKey = "CorrelationId";
 
     public CorrelationIdMiddleware(RequestDelegate next)
     {
@@ -18,19 +15,32 @@ public class CorrelationIdMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
-        // Read incoming header or generate a new correlation id
-        var correlationId = context.Request.Headers.TryGetValue(HeaderName, out var headerId)
-            && !string.IsNullOrWhiteSpace(headerId)
-            ? headerId.ToString()
-            : Activity.Current?.Id ?? Guid.NewGuid().ToString("N");
+        var correlationId = ExtractCorrelationId(context) ?? GenerateCorrelationId();
+        
+        context.Items[CorrelationIdContextKey] = correlationId;
+        
+        context.Response.OnStarting(() =>
+        {
+            context.Response.Headers[CorrelationIdHeaderName] = correlationId;
+            return Task.CompletedTask;
+        });
 
-        // Stamp on the response for downstream clients
-        context.Response.Headers[HeaderName] = correlationId;
-
-        // Flow into Serilog
-        using (LogContext.PushProperty("CorrelationId", correlationId))
+        using (LogContext.PushProperty(CorrelationIdContextKey, correlationId))
+        using (LogContext.PushProperty("IpAddress", context.Connection.RemoteIpAddress?.ToString()))
+        using (LogContext.PushProperty("UserAgent", context.Request.Headers["User-Agent"].ToString()))
         {
             await _next(context);
         }
+    }
+
+    private string? ExtractCorrelationId(HttpContext context)
+    {
+        context.Request.Headers.TryGetValue(CorrelationIdHeaderName, out var correlationIdHeader);
+        return correlationIdHeader.FirstOrDefault();
+    }
+
+    private string GenerateCorrelationId()
+    {
+        return $"{DateTime.UtcNow:yyyyMMddHHmmss}-{Guid.NewGuid():N}";
     }
 }

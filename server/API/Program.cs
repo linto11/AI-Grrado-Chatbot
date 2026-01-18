@@ -3,6 +3,7 @@ using Infrastructure.Persistance;
 using Infrastructure;
 using Application;
 using Application.Common.Configuration;
+using Utility;
 using Serilog;
 using API.Middleware;
 
@@ -27,6 +28,7 @@ builder.Services.AddControllers();
 // Add layer-specific dependency injection
 builder.Services.AddInfrastructureDI(builder.Configuration);
 builder.Services.AddApplicationDI();
+builder.Services.AddUtilityServices();
 
 var app = builder.Build();
 
@@ -56,6 +58,12 @@ app.UseHttpsRedirection();
 
 // CorrelationId middleware to trace requests across layers
 app.UseMiddleware<CorrelationIdMiddleware>();
+
+// Request/Response logging middleware
+app.UseMiddleware<RequestResponseLoggingMiddleware>();
+
+// Exception handling middleware
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 var summaries = new[]
 {

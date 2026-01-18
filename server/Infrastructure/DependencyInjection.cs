@@ -4,10 +4,13 @@ using Infrastructure.Persistance;
 using Infrastructure.Integration;
 using Infrastructure.Integration.Keycloak;
 using Infrastructure.Integration.Resilience;
+using Infrastructure.Integration.Logging;
 using Abstractions.Persistence;
 using Abstractions.Integration;
 using Abstractions.Integration.Keycloak;
 using Abstractions.Services;
+using Utility.Abstractions.Logging;
+using Utility.Integration.Logging.Queue;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
@@ -63,6 +66,14 @@ public static class DependencyInjection
         
         // Register background cache refresh service
         services.AddHostedService<Integration.Redis.ErrorMessageCacheRefreshService>();
+
+        // Register Logging Queue and Services
+        services.AddSingleton<ILoggingQueue, LoggingQueue>();
+        services.AddScoped<IAuditLogService, AuditLogService>();
+        services.AddScoped<IErrorLogService, ErrorLogService>();
+        services.AddScoped<IRequestResponseLogService, RequestResponseLogService>();
+        services.AddScoped<IActivityLogService, ActivityLogService>();
+        services.AddHostedService<LoggingQueueService>();
 
         // Register data seeding service
         services.AddScoped<IDataSeedingService>(provider => 
