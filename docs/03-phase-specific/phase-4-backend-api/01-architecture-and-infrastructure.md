@@ -111,7 +111,7 @@ logs/                                       # Auto-generated log files (gitignor
 <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="10.0.1" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.1" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.1" />
-<PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
+<PackageReference Include="SkiaSharp" Version="2.88.8" />
 <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
 <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.0" />
 <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
@@ -128,7 +128,7 @@ logs/                                       # Auto-generated log files (gitignor
 <PackageReference Include="CsvHelper" Version="33.1.0" />
 <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.1" />
 <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
-<PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
+<PackageReference Include="SkiaSharp" Version="2.88.8" />
 <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.0" />
 <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.1.0" />
 <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.1" />

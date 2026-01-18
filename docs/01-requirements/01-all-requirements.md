@@ -105,7 +105,7 @@ All folder structures, projects, and configurations created:
 6. [ ] Build REST API controllers (GET, POST, PUT, DELETE, PATCH restore)
 7. [ ] Implement server-side pagination (skip, take parameters)
 8. [ ] Implement dual-search functionality (name + description)
-9. [ ] Implement ImageSharp for thumbnail generation (200x200px)
+9. [x] Implement SkiaSharp for thumbnail generation (200x200px) - Zero vulnerabilities
 10. [ ] Create file upload endpoint (/api/upload)
 11. [ ] Create timezone utility class and conversion methods
 12. [ ] Add soft-delete filtering and visibility toggle
@@ -261,7 +261,7 @@ All folder structures, projects, and configurations created:
 - **Frontend:** Angular 19, Tailwind CSS, Shadcn components, ngx-echarts
 - **Database:** PostgreSQL 16 with Liquibase versioning
 - **Authentication:** Keycloak OAuth 2.0/OIDC
-- **Image Processing:** ImageSharp for thumbnails
+- **Image Processing:** SkiaSharp for thumbnails (zero vulnerabilities, industry-standard)
 - **File Storage:** Local `/uploads/images/` folder
 
 ---

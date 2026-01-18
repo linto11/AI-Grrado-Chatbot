@@ -68,7 +68,7 @@ dotnet add Infrastructure reference Domain
 - Npgsql.EntityFrameworkCore.PostgreSQL (9.0.0)
 - Microsoft.AspNetCore.Authentication.JwtBearer (9.0.0)
 - Swashbuckle.AspNetCore (6.5.0)
-- SixLabors.ImageSharp (3.1.0)
+- SkiaSharp (2.88.8) - Zero vulnerabilities, Google-backed
 
 ### 2. Frontend Structure (Angular 19) ✅
 
@@ -162,7 +162,7 @@ server/API/
 - Max file size: 10MB configured in appsettings.json
 - Allowed types: .jpg, .jpeg, .png, .gif
 - Storage path: /uploads/images/
-- Thumbnail generation: ImageSharp ready
+- Thumbnail generation: SkiaSharp implemented (zero vulnerabilities)
 - File naming: GUID-based to prevent conflicts
 
 ### 6. Build Verification ✅
