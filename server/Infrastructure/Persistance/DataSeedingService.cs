@@ -352,79 +352,79 @@ public class DataSeedingService : IDataSeedingService
     // CSV Record Classes
     private class UserCsvRecord
     {
-        public string user_id { get; set; }
-        public string name { get; set; }
-        public string family_type { get; set; }
-        public string experience_level { get; set; }
+        public string user_id { get; set; } = string.Empty;
+        public string name { get; set; } = string.Empty;
+        public string family_type { get; set; } = string.Empty;
+        public string experience_level { get; set; } = string.Empty;
     }
 
     private class VehicleCsvRecord
     {
-        public string vehicle_id { get; set; }
-        public string user_id { get; set; }
-        public string make { get; set; }
-        public string model { get; set; }
+        public string vehicle_id { get; set; } = string.Empty;
+        public string user_id { get; set; } = string.Empty;
+        public string make { get; set; } = string.Empty;
+        public string model { get; set; } = string.Empty;
         public int year { get; set; }
-        public string fuel_type { get; set; }
+        public string fuel_type { get; set; } = string.Empty;
         public int mileage_km { get; set; }
     }
 
     private class VehicleIssueCsvRecord
     {
-        public string issue_id { get; set; }
-        public string symptom { get; set; }
-        public string affected_system { get; set; }
-        public string severity { get; set; }
-        public string drive_safe { get; set; }
+        public string issue_id { get; set; } = string.Empty;
+        public string symptom { get; set; } = string.Empty;
+        public string affected_system { get; set; } = string.Empty;
+        public string severity { get; set; } = string.Empty;
+        public string drive_safe { get; set; } = string.Empty;
     }
 
     private class GarageCsvRecord
     {
-        public string garage_id { get; set; }
-        public string garage_name { get; set; }
-        public string city { get; set; }
-        public string garage_type { get; set; }
-        public string ev_supported { get; set; }
+        public string garage_id { get; set; } = string.Empty;
+        public string garage_name { get; set; } = string.Empty;
+        public string city { get; set; } = string.Empty;
+        public string garage_type { get; set; } = string.Empty;
+        public string ev_supported { get; set; } = string.Empty;
         public double rating { get; set; }
     }
 
     private class ServiceCsvRecord
     {
-        public string service_id { get; set; }
-        public string garage_id { get; set; }
-        public string service_name { get; set; }
-        public string category { get; set; }
+        public string service_id { get; set; } = string.Empty;
+        public string garage_id { get; set; } = string.Empty;
+        public string service_name { get; set; } = string.Empty;
+        public string category { get; set; } = string.Empty;
         public double avg_cost_aed { get; set; }
-        public string skill_level { get; set; }
+        public string skill_level { get; set; } = string.Empty;
     }
 
     private class ServiceHistoryCsvRecord
     {
-        public string record_id { get; set; }
-        public string vehicle_id { get; set; }
-        public string garage_id { get; set; }
-        public string service_id { get; set; }
-        public string service_date { get; set; }
+        public string record_id { get; set; } = string.Empty;
+        public string vehicle_id { get; set; } = string.Empty;
+        public string garage_id { get; set; } = string.Empty;
+        public string service_id { get; set; } = string.Empty;
+        public string service_date { get; set; } = string.Empty;
         public int mileage_km { get; set; }
         public double cost_aed { get; set; }
-        public string outcome { get; set; }
+        public string outcome { get; set; } = string.Empty;
     }
 
     private class DiagnosticRuleCsvRecord
     {
-        public string rule_id { get; set; }
-        public string conditions { get; set; }
-        public string logic_type { get; set; }
+        public string rule_id { get; set; } = string.Empty;
+        public string conditions { get; set; } = string.Empty;
+        public string logic_type { get; set; } = string.Empty;
         public double confidence { get; set; }
-        public string conclusion { get; set; }
+        public string conclusion { get; set; } = string.Empty;
     }
 
     private class ImageDiagnosticCsvRecord
     {
-        public string image_case_id { get; set; }
-        public string visual_feature { get; set; }
+        public string image_case_id { get; set; } = string.Empty;
+        public string visual_feature { get; set; } = string.Empty;
         public double confidence { get; set; }
-        public string likely_issue { get; set; }
-        public string urgency { get; set; }
+        public string likely_issue { get; set; } = string.Empty;
+        public string urgency { get; set; } = string.Empty;
     }
 }
