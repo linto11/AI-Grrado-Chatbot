@@ -1117,6 +1117,8 @@ CREATE TABLE ai_usage_logs (
 | **Logging** | Serilog | Latest | Structured logging |
 | **Job Scheduling** | Hangfire | Latest | Background jobs |
 | **Authentication** | Keycloak | Latest | SSO & Identity |
+| **Resilience** | Polly | 8.4.1 | Retry, circuit breaker, timeout |
+| **HTTP Resilience** | Polly.Extensions.Http | 3.0.0 | HTTP policy handling |
 | **Image Processing** | SkiaSharp | 2.88.8 | Image manipulation |
 
 ### Frontend (Web)
