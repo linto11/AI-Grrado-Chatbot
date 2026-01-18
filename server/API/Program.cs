@@ -28,9 +28,6 @@ builder.Services.AddControllers();
 builder.Services.AddInfrastructureDI(builder.Configuration);
 builder.Services.AddApplicationDI();
 
-// Add Polly resilience policies and HTTP clients
-builder.Services.AddPollyPolicies(builder.Configuration);
-
 var app = builder.Build();
 
 // Seed data on startup

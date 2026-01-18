@@ -124,6 +124,54 @@ public static class PollyPolicies
             )
             .WrapAsync(GetCircuitBreakerPolicy());
     }
+
+    /// <summary>
+    /// Creates a retry policy for database operations with exponential backoff
+    /// Handles transient database errors (deadlocks, connection timeouts)
+    /// </summary>
+    public static IAsyncPolicy GetDatabaseRetryPolicy()
+    {
+        return Policy
+            .Handle<Exception>(ex =>
+                ex.InnerException?.Message?.Contains("deadlock") == true ||
+                ex.InnerException?.Message?.Contains("timeout") == true ||
+                ex.Message?.Contains("connection refused") == true
+            )
+            .Or<InvalidOperationException>()
+            .WaitAndRetryAsync(
+                retryCount: PollyConstants.RetryPolicy.MAX_RETRY_ATTEMPTS,
+                sleepDurationProvider: retryAttempt =>
+                    TimeSpan.FromMilliseconds(
+                        PollyConstants.RetryPolicy.INITIAL_DELAY_MS *
+                        Math.Pow(PollyConstants.RetryPolicy.BACKOFF_MULTIPLIER, retryAttempt - 1)
+                    )
+            );
+    }
+
+    /// <summary>
+    /// Creates a timeout policy for database operations
+    /// Prevents queries from hanging indefinitely
+    /// </summary>
+    public static IAsyncPolicy GetDatabaseTimeoutPolicy()
+    {
+        return Policy.TimeoutAsync(
+            TimeSpan.FromMilliseconds(PollyConstants.TimeoutPolicy.DATABASE_TIMEOUT_MS),
+            timeoutStrategy: TimeoutStrategy.Pessimistic
+        );
+    }
+
+    /// <summary>
+    /// Creates a combined database resilience policy (retry + timeout + bulkhead)
+    /// Protects database resources from exhaustion and handles transient failures
+    /// </summary>
+    public static IAsyncPolicy GetDatabaseResiliencePolicy()
+    {
+        return Policy.WrapAsync(
+            GetDatabaseRetryPolicy(),
+            GetDatabaseBulkheadPolicy(),
+            GetDatabaseTimeoutPolicy()
+        );
+    }
 }
 
 /// <summary>
