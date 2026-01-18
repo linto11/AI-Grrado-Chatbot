@@ -1,6 +1,8 @@
+using Domain.Abstractions;
+
 namespace Domain.Entities;
 
-public class Garage
+public class Garage : IEntity
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
@@ -11,6 +13,10 @@ public class Garage
     public bool EvSupported { get; set; }
     public double Rating { get; set; }
     public string OperatingHours { get; set; } = string.Empty;
+    
+    // Audit columns
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
     
     // Soft delete columns
     public bool IsDeleted { get; set; } = false;

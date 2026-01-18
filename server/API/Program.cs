@@ -1,23 +1,32 @@
-using Infrastructure.Data;
-using Infrastructure.Services;
-using Microsoft.EntityFrameworkCore;
+using Infrastructure.Persistance.DBContext;
+using Infrastructure.Persistance;
+using Application;
+using Application.Common.Configuration;
+using Infrastructure;
+using Serilog;
+using API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Serilog as the primary logger using configuration sinks
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
+// Load error code configuration from JSON
+builder.Configuration.AddJsonFile("Configuration/error-codes.json", optional: false, reloadOnChange: true);
+builder.Services.Configure<ErrorCodeConfiguration>(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
-// Configure PostgreSQL DbContext
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
-    ?? "Host=localhost;Port=5432;Database=vehicle_service_db;Username=postgres;Password=postgres;";
-
-builder.Services.AddDbContext<VehicleServiceDbContext>(options =>
-    options.UseNpgsql(connectionString));
-
-// Register data seeding service
-builder.Services.AddScoped<IDataSeedingService>(provider => 
-    new DataSeedingService(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "data")));
+// Add layer-specific dependency injection
+builder.Services.AddInfrastructureDI(builder.Configuration);
+builder.Services.AddApplicationDI();
 
 var app = builder.Build();
 
@@ -33,7 +42,7 @@ using (var scope = app.Services.CreateScope())
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"Error seeding data: {ex.Message}");
+        Log.Error(ex, "Error seeding data");
     }
 }
 
@@ -44,6 +53,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// CorrelationId middleware to trace requests across layers
+app.UseMiddleware<CorrelationIdMiddleware>();
 
 var summaries = new[]
 {

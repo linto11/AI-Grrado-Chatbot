@@ -1,6 +1,8 @@
+using Domain.Abstractions;
+
 namespace Domain.Entities;
 
-public class Vehicle
+public class Vehicle : IEntity
 {
     public int Id { get; set; }
     public int UserId { get; set; }
@@ -13,6 +15,10 @@ public class Vehicle
     public double MileageKm { get; set; }
     public string LicensePlate { get; set; } = string.Empty;
     public string City { get; set; } = string.Empty;
+    
+    // Audit columns
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
     
     // Soft delete columns
     public bool IsDeleted { get; set; } = false;

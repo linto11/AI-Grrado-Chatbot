@@ -1,6 +1,8 @@
+using Domain.Abstractions;
+
 namespace Domain.Entities;
 
-public class DiagnosticRule
+public class DiagnosticRule : IEntity
 {
     public int Id { get; set; }
     public string Conditions { get; set; } = string.Empty;
@@ -9,6 +11,10 @@ public class DiagnosticRule
     public string Conclusion { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public int Priority { get; set; }
+    
+    // Audit columns
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
     
     // Soft delete columns
     public bool IsDeleted { get; set; } = false;
